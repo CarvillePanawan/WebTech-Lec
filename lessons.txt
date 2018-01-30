@@ -1,0 +1,8 @@
+Worl Wide Web
+	- Created by Tim Berners Lee
+	- Collection of web resources and applications that can be accessed through the internet
+	- 
+
+HTTP
+	- application lays protocools used to access resources on thw world wide web
+	- 
