@@ -1,8 +1,79 @@
-Worl Wide Web
+WWW(World Wide Web)
 	- Created by Tim Berners Lee
 	- Collection of web resources and applications that can be accessed through the internet
 	- 
 
-HTTP
-	- application lays protocools used to access resources on thw world wide web
-	- 
+HTTP (Hyper Text Transfer Protocol)
+- application lays protocools used to access resources on thw world wide web
+- invented by Tim Berners Lee at CERN(Conseil Européen pour la Recherche Nucléaire) in 1989 along side W3C(World Wide Web Consortium) and IETF(Internet Engineering Task Force).
+- Version history
+	> HTTP 0.9 (1991)-(TCP/IP connection using port 80; "GET"; only html)
+	> HTTP 1.0 (RFC(Remote Function Call) 1945, May 1996)-(pull protocol; always initiated by client)
+	> HTTP 1.1 (RFC 2068 January 1997, RFC 2616 June 1999); RFC 7230-7235 June 2014
+	> HTTP 2 (RFC 7540 May 2015)-(pipelining introduced; multiplexing; server push - server taking initiative)
+		-> SPDY (protocol created by Google)
+
+HTTP Fundamentals
+- HTTP basically runs on top of TCP/IP, using TCp port 80 by default, ot TCP port 443 for HTTPS(Secure HTTP)
+- HTTP is based on a client-server architecture
+	> Servers
+		-> origin servers
+		-> proxy servers, gateways, tunnels
+	> client aka user agents(UA):
+		-> web browsers, web crawlers
+- HTTP uses a request-response standard protocol
+	> the client send a HTTP request message to the server, the server recieves the request and replies with a HTTP response message
+- HTTP is a stateless communications protocol
+	> servers do not keep information about clients in-between requests
+- HTTP provides support for other functionalities, such as:
+	> cache control
+	> content media type specification
+	> content/transfer coding
+	> content negotiation
+	> client-server protocol negotiations
+	> persistent connections
+	> request pipelining/ multiplexing (HTTP2)
+	> autorization/authintication
+	> etc.
+
+HTTP Reverse Addressing
+- identified using URL's (RFC 3986) or more
+	> scheme (HTTP or HTTPS)
+	> authority
+		-> user information or authentication credentials(depreciated)
+		-> host
+			--> domain name
+		-> port number
+	> path to resonance
+		-> static or dynamic resource
+	> query
+		-> provided as key = value pairs, with (&) separators between key/value; started with question mark
+		-> may be URL-encoded; fragment identifier/ bookmark
+	> fragment identifier
+
+HTTP Request Message
+- Request line (CRLF- terminated line consisting of three space separated values)
+	> method
+	> request target
+	> protocol version
+- Message Headers
+- Empty Line
+- Message Body aka payload
+
+HTTP Response Message
+- Status line
+	> protocol version
+	> status code
+	> Reason Phrase
+- Message haders
+- Empty line
+- Message Body
+
+Request Methods
+- Stardard Methods
+	> Get
+		-> transfer a current selected representation of the target resource
+		-> most commonly used HTTP method, supported by generetion pur servers
+	> Head
+		-> get status line and headers without payload
+		-> check status
