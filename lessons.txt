@@ -69,11 +69,55 @@ HTTP Response Message
 - Empty line
 - Message Body
 
-Request Methods
+HTTP Request Methods
 - Stardard Methods
 	> Get
 		-> transfer a current selected representation of the target resource
 		-> most commonly used HTTP method, supported by generetion pur servers
 	> Head
 		-> get status line and headers without payload
-		-> check status
+		-> check status, similar to get but with no payload
+	> Post
+		-> request that the target resource perform resource-specific processing of the representation enclosed in the meassgae body of the request
+		-> typically used in submitting HTML form data
+	> Put
+		-> create or replace the state of the target resource with the state defined by the representation enclosed
+	> Delete
+		-> remove the association betwenn the target resource and its current fuctionality
+	> Options
+		-> request information about the communication options available for the target resource
+		-> the request target may be "*"
+	> Truce
+		-> request remote, application level loopback of the request message(request the recipient echo back to the client received request message)
+	> Connect
+		-> request establishment of a tunnel to the destination origin server and if succesful thereafter restricts its behavior to blind-formating of products in both direction
+
+HTTP Method Properties
+- Safe Methods
+	-> read-only (Get, Head, Options, Truce)
+- Idempotent Methods
+	-> may not be read-only, only effective once(Get, Head, Options, Truce, Put, Delete)
+- Cacheable Methods
+	-> the response to a method is allowed to be stored for future reference(Get, Head, Post)
+	
+HTTP Message Header
+- General Header Fields
+	-> entity header fields
+- Request Header fields
+- Response Header Fields
+- Entity Header Fields(payload)
+
+HTTP Status Codes
+- 3 digit code that tells the result of the operation
+	-> 1 - information
+	-> 2 - success
+	-> 3 - redirect
+	-> 4 - client error
+	-> 5 - server error
+	
+HTTP Extensions
+- can be extended by defining new requests, methos, message headers and/or status codes.
+	
+	
+	
+	
