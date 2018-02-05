@@ -1,0 +1,162 @@
+Overview:
+
+World Wide Web
+1. 25>years old<30
+2. Collection of:
+   a. Web resources
+      - Two types:
+        1. Static:
+           - Resources are stored.
+        2. Dynamic
+           - Resources are generated.
+   b. Apllications
+      - Allows acces of the web resources through the internet
+      - Client: uses
+      - Server: provides
+        - Two types:
+          1. Application: dynamic
+          2. Web: 
+3. Original purpose was to share information between scientists.
+4. Client-server architecture
+5. Invented by Sir Tim Berners-Lee
+   - Was knighted for the invetion of the WWW.
+   
+Internet
+1. Global network of networks
+2. Collection of hardware and software
+3. Provides the platform that applications can utilize
+
+---------------------------------------------------------------------------------------------------------------------------------------
+* Domain name
+  - Readable host name
+  
+* DNS
+  - Domain name service
+  -user gives the name and the browser retursn the I.P. address.
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Hypertext Transfer Protocol: HTTP
+- Used to acces web resources
+- Invented by Tim Berners-Lee at CERN in 1989
+- Jointly developed by W3C and the IETF
+
+Versions
+1. HTTP 0.9
+   - Only HTML(or text) was possible to be sent and received.
+2. HTTP 1.0
+   - Other media types can be send and received.
+3. HTTP 1.1
+   - Multiple resources
+4. HTTP 2.0
+   - Pipelining, multiplexing and Pull Protocol(client always initiate).
+   
+HTTP Fundamentals
+- HTTP typically runs on top of TCP/IP, using TCP port 80 by default or TCP port 443 for HTTPS
+- Client-server architecture
+  1. Servers
+     - Origin servers, proxy servers, gateways, tunnels, ...
+  2. Client
+     - a.k.a. User Agents(UA)
+     - Web browsers, web crawlers/spiders, other end user tools and applications.
+- HTTP uses a request-responces standard protocol
+  - The client sends an HTTP request message to the server
+  
+ ---------------------------------------------------------------------------------------------------------------------------------------
+ * TCP/IP
+   - Transfer Control Protocol Internet Protocol
+ * Origin server
+   - Where information resides
+ * HTTP is a stateless comminications protocol
+   - Servers do no keep information about clients in between requests.
+   - Serve and forget
+ ---------------------------------------------------------------------------------------------------------------------------------------
+  
+  Data Packets
+  - Partitioned parts of the whole data
+  - Sent in certain intervals
+  - Keeps information about its:
+    1. Packet number
+    2. Sequence number
+    3. Address of the sender and receiver
+    
+ TCP/IP
+ - Connection protocol
+ 
+ HTTP
+ - Pull protocol
+   - Client alwars initiates connections and servers can only repond.
+ - Stateless
+   - Information of the client is forgotten.
+   - "Serve and forget"
+   
+UDP
+- Connectionless protocol
+
+Head of the line blocking
+- HTTP 1 problem that was solved in HTTP 2
+
+HTTP Resource Addressing
+- URL: Universal Resource Locations
+- URI: Universal Resource Identifier
+- URN: Universal Resource Name
+- Scheme
+  - HTTP or HTTPS
+- Authority
+  - User information(!deprecated)
+  - Host(domain name)
+  - Path(from document root to resource)
+    - Static or dynamic
+  - Query(starts with '?')
+  - Port number
+  - Fragment identifier
+    
+---------------------------------------------------------------------------------------------------------------------------------------
+* Checksum/Hash
+  - Used to map packets
+* Physical level = lowest level
+* Application level = highest level
+---------------------------------------------------------------------------------------------------------------------------------------
+
+HTTP Request Message
+- Request line
+
+HTTP Response Message
+- Status line
+
+Request Methods
+1. GET      5. DELETE
+2. HEAD     6. OPTIONS
+3. POST     7. TRACE
+4. PUT      8. CONNECT
+
+---------------------------------------------------------------------------------------------------------------------------------------
+* Link Rot
+  - External links can dissappear
+  - Links outside your domain can go without your knowledge
+* URI should not be larder than 2000 bytes.
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Method Properties
+1. State Methods
+2. Idempotent Methods
+3. Cachable Methods
+
+Message Headers
+1. General: client and server || request and response
+2. Request: client || request
+3. Reponse: server || response
+4. Entity: payload == entity
+
+Status Codes
+- 3-digit codes
+  a. 1xx: informational
+  b. 2xx: success
+  c. 3xx: redirectional
+  d. 4xx: client error
+  e. 5xx: server error
+  
+---------------------------------------------------------------------------------------------------------------------------------------
+* Extensions
+  - HTTP can be extended by defining new request methods, message headers and/or status codes.
+---------------------------------------------------------------------------------------------------------------------------------------
+
