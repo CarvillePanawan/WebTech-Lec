@@ -1,0 +1,43 @@
+#information {
+    position: inherit;
+    height: 80%;
+    width: 80%;
+    display: block;
+    padding: 1em;
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #222;
+}
+
+#content_a {
+    min-height: 100vh;
+    min-width: 100vw;
+    font-family: "Century Gothic", sans-serif;
+    display: flex;
+    flex-direction: column;     
+    justify-content: center;
+    align-items: center; 
+}
+
+h1 {
+    
+}
+
+p {
+    text-indent: 3em;
+}
+
+.left{
+    list-style-type: none;
+    float: left;
+    margin-left: 10%;
+}
+
+.right{
+    list-style-type: none;
+    float: right;
+    margin-right: 20%;
+}
+
+#content_a li {
+    list-style: none;
+}
