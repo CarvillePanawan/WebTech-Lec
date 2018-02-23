@@ -6,6 +6,7 @@
     padding: 1em;
     border-top: 1px solid #222;
     border-bottom: 1px solid #222;
+    background-color: rgb(219, 219, 219);
 }
 
 #content_a {
@@ -16,10 +17,7 @@
     flex-direction: column;     
     justify-content: center;
     align-items: center; 
-}
-
-h1 {
-    
+    background-color: rgb(219, 219, 219);
 }
 
 p {
