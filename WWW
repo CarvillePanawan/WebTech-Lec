@@ -1,1 +1,18 @@
-WWW stands for World Wide Web which was created by Sir Time Berners Lee in 1989 
+History
+  WWW(World Wide Web) was started by Tim Berners Lee in March 1989, it first started as a way fro researchers to share and 
+  information within a wide range. 
+WWW
+  The WWW is basiacally a collection of web resources and applications linked by HTTP that can be accessed through the internet.
+  Types of Web Resources
+    1. Static
+      - Static resources are reources that are exaclty stored and do not require web programming and database design.
+    2. Dynamic
+      - Dynamic resoursec are resources that are generated, usually Client-side-scripting, server-side scripting, or both are
+        used.
+  Types of Applications
+    1. Client Application
+      - A program that can acquire or secure the services of other programs usually server appplications.
+    2. Server Applications
+      - An application that waits for requests from other applications, whether client or server application, and sends back a 
+        response accordingly.
+w
