@@ -1,11 +1,11 @@
 HTTP LESSON PRELIMS
 
 HTTP (Hyper Text Transfer Protocol)
-- application lays protocols used to access resources on thw world wide web
+	> HTTP is an application layer communication protocol that is used to access resources(hypertext/hypermedia) from the World Wide Web
 
-- invented by Tim Berners Lee at CERN(Conseil Européen pour la Recherche Nucléaire) in 1989 along side W3C(World Wide Web Consortium) and IETF(Internet Engineering Task Force).
+	> invented by Tim Berners Lee at CERN(Conseil Européen pour la Recherche Nucléaire) in 1989 together with W3C(World Wide Web Consortium) and IETF(Internet Engineering Task Force).
 
-VERSION HISTORY
+VERSIONS
 	> HTTP 0.9 (1991)-(TCP/IP connection using port 80; "GET"; only html)
 
 	> HTTP 1.0 (RFC(Remote Function Call) 1945, May 1996)-(pull protocol; always initiated by client)
@@ -13,11 +13,10 @@ VERSION HISTORY
 	> HTTP 1.1 (RFC 2068 January 1997, RFC 2616 June 1999); RFC 7230-7235 June 2014
 
 	> HTTP 2 (RFC 7540 May 2015)-(pipelining introduced; multiplexing; server push - server taking initiative)
-		-> SPDY (protocol created by Google)
 
 HTTP FUNDAMENTALS
 
-- HTTP basically runs on top of TCP/IP, using TCP port 80 by default, or TCP port 443 for HTTPS(Secure HTTP)
+- HTTP runs on top of TCP(Transmission Control Protocol/IP(Internet Protocol) with the use of TCP port 80 by default or TCP port 443 for HTTPS(Secure HTTP)
 
 - HTTP is based on a client-server architecture
 	> Servers
@@ -43,8 +42,9 @@ HTTP FUNDAMENTALS
 	> authorisation/authentication
 	> etc.
 
-HTTP Reverse Addressing
+HTTP 
 - identified using URL's or more
+	PARTS:
 	> scheme (HTTP or HTTPS)
 	> authority
 		-> user information or authentication credentials(depreciated)
@@ -58,29 +58,29 @@ HTTP Reverse Addressing
 		-> may be URL-encoded; fragment identifier/ bookmark
 	> fragment identifier
 
-HTTP Request Message
-- Request line (CRLF- terminated line consisting of three space separated values)
-	> method
-	> request target
-	> protocol version
-- Message Headers
-- Empty Line
-- Message Body aka payload
+HTTP REQUEST MESSAGE
+	> Request line (CRLF- terminated line consisting of three space separated values)
+		-> method
+		-> request target
+		-> protocol version
+	> Message Headers
+	> Empty Line
+	> Message Body aka payload
 
-HTTP Response Message
-- Status line
-	> protocol version
-	> status code
-	> Reason Phrase
-- Message haders
-- Empty line
-- Message Body
+HTTP RESPONSE MESSAGE
+	> Status line
+		-> protocol version
+		-> status code
+		-> Reason Phrase
+	> Message haders
+	> Empty line
+	> Message Body
 
-HTTP Request Methods
-- Stardard Methods
+HTTP REQUEST METHODS
+	> Standard Methods
 	> Get
 		-> transfer a current selected representation of the target resource
-		-> most commonly used HTTP method, supported by generetion pur servers
+		-> most commonly used HTTP method, supported by generation pur servers
 	> Head
 		-> get status line and headers without payload
 		-> check status, similar to get but with no payload
@@ -90,7 +90,7 @@ HTTP Request Methods
 	> Put
 		-> create or replace the state of the target resource with the state defined by the representation enclosed
 	> Delete
-		-> remove the association betwenn the target resource and its current fuctionality
+		-> remove the association between the target resource and its current functionality
 	> Options
 		-> request information about the communication options available for the target resource
 		-> the request target may be "*"
@@ -99,28 +99,31 @@ HTTP Request Methods
 	> Connect
 		-> request establishment of a tunnel to the destination origin server and if succesful thereafter restricts its behavior to blind-formating of products in both direction
 
-HTTP Method Properties
-- Safe Methods
-	-> read-only (Get, Head, Options, Truce)
-- Idempotent Methods
-	-> may not be read-only, only effective once(Get, Head, Options, Truce, Put, Delete)
-- Cacheable Methods
-	-> the response to a method is allowed to be stored for future reference(Get, Head, Post)
+HTTP METHOD PROPERTIES
+	> Safe Methods
+		-> read-only (Get, Head, Options, Truce)
+	> Idempotent Methods
+		-> may not be read-only, only effective once(Get, Head, Options, Truce, Put, Delete)
+	> Cacheable Methods
+		-> the response to a method is allowed to be stored for future reference(Get, Head, Post)
 	
-HTTP Message Header
-- General Header Fields
-	-> entity header fields
-- Request Header fields
-- Response Header Fields
-- Entity Header Fields(payload)
+HTTP MESSAGE HEADER
+	> General Header Fields
+		-> entity header fields
+	> Request Header fields
+		-> more information about the resource to be get
+	> Response Header Fields
+		-> additional information about the response
+	> Entity Header Fields(payload)
+		-> information about the body of the entity
 
-HTTP Status Codes
-- 3 digit code that tells the result of the operation
-	-> 1 - information
-	-> 2 - success
-	-> 3 - redirect
-	-> 4 - client error
-	-> 5 - server error
+HTTP STATUS CODES
+	> 3 digit code that tells the result of the operation
+		-> 1XX - information
+		-> 2XX - success
+		-> 3XX - redirect
+		-> 4XX - client error
+		-> 5XX - server error
 	
 HTTP Extensions
-- can be extended by defining new requests, methods, message headers and/or status codes.
+	> can be extended by defining new requests, methods, message headers and/or status codes.
