@@ -1,8 +1,9 @@
 html,
 body {
-   margin:0;
-   padding:0;
-   height:100%;
+    margin:0;
+    padding:0;
+    height:100%;
+    overflow-x: hidden;
 }
 
 #container {
@@ -30,7 +31,7 @@ body {
     background-color: #fff;
     top: 2em;
     left: 3em;
-    background-image: url("../IMAGES/Temp.png");
+    background-image: url("../IMAGES/Header.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -78,16 +79,19 @@ body {
 }
 
 #left {
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgb(210, 210, 210);
+    position: fixed;
     display: block;
     color: white;
     width: 20%;
     height: auto;
+    min-height: 100%;
+    overflow-y: scroll; 
     float: left;
 }
 
 #right {
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgb(190, 190, 190);
     display: block;
     width: 80%;
     height: auto;

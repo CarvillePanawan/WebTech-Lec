@@ -23,7 +23,6 @@
     position: relative;
     text-align: center;
     border-right: 1px solid #222;
-    display: block;
 }
 
 #html {
@@ -35,7 +34,6 @@
     text-align: center;
     border-right: 1px solid #222;
     border-left: 1px solid #222;
-    display: block;
 }
 
 #www {
@@ -46,7 +44,6 @@
     position: relative;
     text-align: center;
     border-left: 1px solid #222;
-    display: block;
 }
 
 #text {
@@ -58,11 +55,34 @@
 }
 
 #www img,
-#html img {
-    height: 60%;
-    width: 60%;
+#html img,
+#http img {
+    height: 70%;
+    width: 70%;
     position: absolute;
     display: inline-block;
-    left: 22%;
+    left: 19%;
     top: 5%;
+}
+
+#www img:hover,
+#html img:hover,
+#http img:hover {
+    -webkit-animation: scale 0.8s ease-in-out;
+    -moz-animation: scale 0.8s ease-in-out;
+    -ms-animation: scale 0.8s ease-in-out;
+    -o-animation: scale 0.8s ease-in-out;
+    animation: scale 0.8s ease-in-out;
+    cursor: pointer;
+}
+@keyframes scale {
+    0% {
+        transform: scale(0.9);
+    }
+    50% {
+        transform: scale(1.01);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
