@@ -15,4 +15,9 @@ WWW
     2. Server Applications
       - An application that waits for requests from other applications, whether client or server application, and sends back a 
         response accordingly.
-w
+URL
+  The URL(Uniform Resource Allocator) is the one that indicates where a web page is stored within the internet. 
+How it Works
+  Different web pages are stored or kept in web servers around the world and upon clicking a link or inpting the URL of webpage 
+  triggers a request for the web page from the web server, the server then transmits back a response containing the web page data 
+  that your web browser displays.
