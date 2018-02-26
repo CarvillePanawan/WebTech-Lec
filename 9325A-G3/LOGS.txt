@@ -1,0 +1,109 @@
+cbfbc8e -cs-13, (2018-02-26 14:52:50) : Finalized website, uploaded LOGS.txt and README.txt.
+
+
+282d0b9 -cs-13, (2018-02-26 14:26:05) : Updated websites and fixed unmerged files for my local repository
+
+
+c070c57 -cs-13, (2018-02-26 13:36:04) : Updated the website's contents.
+
+
+3fbbe9e -kchinayog, (2018-02-26 12:49:48) : Update About US
+
+
+7cad4a9 -kchinayog, (2018-02-26 12:48:41) : Update About US
+
+
+5196e99 -Jaime Carvajal, (2018-02-26 12:47:07) : Add files via upload
+
+
+505103e -kchinayog, (2018-02-26 12:38:40) : Create About US
+
+
+20a50ff -kchinayog, (2018-02-26 12:26:37) : Update References for HTML notes
+
+
+8507002 -kchinayog, (2018-02-26 12:24:37) : Update WWW
+
+
+81d1c1b -kchinayog, (2018-02-26 12:24:02) : Update References for HTML notes
+
+
+1d9785c -kchinayog, (2018-02-26 12:09:53) : Update References for HTML notes
+
+
+09e3ae7 -kchinayog, (2018-02-26 01:04:59) : Update References for HTML notes
+
+
+d34246e -kchinayog, (2018-02-26 00:59:34) : Update WWW
+
+
+e69cd3e -cs-13, (2018-02-26 00:09:59) : Finalized the website's layout, added some contents.
+
+
+7dc995b -JRSibaen, (2018-02-25 19:33:31) : Added references used in html notes
+
+
+c14e4d8 -Jan Rei A. Sibaen, (2018-02-25 17:00:47) : Added contents and edited HTML CONTENTS.odt
+
+
+b5fb1f5 -Jaime Carvajal, (2018-02-25 11:14:43) : Add files via upload
+
+
+7fb5e7b -Jaime Carvajal, (2018-02-25 08:42:11) : Add files via upload
+
+
+ca95ffb -kchinayog, (2018-02-25 01:38:31) : Update WWW
+
+
+d89c161 -Jan Rei A. Sibaen, (2018-02-24 23:39:23) : added more contents about html
+
+
+f5ad396 -Jan Rei A. Sibaen, (2018-02-24 22:28:21) : Added html contents
+
+
+9c2bd08 -cs-13, (2018-02-24 03:42:13) : Updated the website
+
+
+f811f10 -kchinayog, (2018-02-22 22:56:04) : Create WWW
+
+
+f855c4c -cs-13, (2018-02-22 22:29:14) : Added the updated version of the website.
+
+
+426a50a -JRSibaen, (2018-02-22 17:14:05) : Create HTML NOTES
+
+
+2ef8977 -Jaime Carvajal, (2018-02-22 16:01:20) : Add files via upload
+
+
+88deac6 -cs-13, (2018-02-21 22:11:14) : Merge branch 'master' of https://github.com/cs-13/WebTech-Lec
+
+
+70b29d1 -cs-13, (2018-02-21 22:10:30) : Updated the template of the website.
+
+
+f689c38 -kchinayog, (2018-02-16 21:17:15) : Create 1html.html
+
+
+5c8e4ef -kchinayog, (2018-02-16 21:15:35) : Create http.html
+
+
+54ed670 -kchinayog, (2018-02-16 21:13:23) : Create www.html
+
+
+4513f91 -cs-13, (2018-02-09 18:34:39) : Added template for the website.
+
+
+d193dbb -cs-13, (2018-02-05 22:53:15) : Create Notes
+
+
+fd01079 -kchinayog, (2018-02-02 22:55:56) : Update lessons.txt
+
+
+4257e24 -kchinayog, (2018-01-30 19:52:02) : Update lessons.txt
+
+
+bca0eb2 -kchinayog, (2018-01-30 19:20:53) : Add files via upload
+
+
+c6defb2 -cs-13, (2018-01-29 19:05:09) : Create README.md
