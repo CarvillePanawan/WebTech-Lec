@@ -30,7 +30,6 @@
 }
 
 #lesson {
-    font-size: 0.9em;
     margin: 2%;
     padding: 2%;
     background-color: rgba(215,215,215, 0.5);
@@ -59,6 +58,27 @@
     text-indent: 4em;
 }
 
+#lesson h4 {
+    text-indent: 6em;
+}
+
 .move {
     margin-left: 6em;
+}
+
+.less {
+    font-weight: 100;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table,
+td {
+    border: 1px solid black;
+}
+
+td {
+    padding: 0.5em;
 }

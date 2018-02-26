@@ -1,4 +1,4 @@
-HTTP LESSON PRELIMS
+﻿HTTP LESSON PRELIMS
 
 HTTP (Hyper Text Transfer Protocol)
 	> HTTP is an application layer communication protocol that is used to access resources(hypertext/hypermedia) from the World Wide Web
@@ -44,6 +44,7 @@ HTTP FUNDAMENTALS
 
 HTTP 
 - identified using URL's or more
+
 	PARTS:
 	> scheme (HTTP or HTTPS)
 	> authority
@@ -97,7 +98,7 @@ HTTP REQUEST METHODS
 	> Truce
 		-> request remote, application level loopback of the request message(request the recipient echo back to the client received request message)
 	> Connect
-		-> request establishment of a tunnel to the destination origin server and if succesful thereafter restricts its behavior to blind-formating of products in both direction
+		->
 
 HTTP METHOD PROPERTIES
 	> Safe Methods
@@ -111,10 +112,13 @@ HTTP MESSAGE HEADER
 	> General Header Fields
 		-> entity header fields
 	> Request Header fields
+
 		-> more information about the resource to be get
 	> Response Header Fields
+
 		-> additional information about the response
 	> Entity Header Fields(payload)
+
 		-> information about the body of the entity
 
 HTTP STATUS CODES

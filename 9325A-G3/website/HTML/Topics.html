@@ -40,7 +40,8 @@
                 <div id="right">
                     <div id="lesson">
                         <h1 id="WWW">WWW</h1>
-                        <p>The WWW or the World Wide Web is basically a collection of web resources and applications linked by HTTP that can be accessed through the internet.</p>
+                        <h2>WWW or World Wide Web</h2>
+                        <p>The WWW is basically a collection of web resources and applications linked by HTTP that can be accessed through the internet.</p>
                         
                         <h2 id="Hist">History</h2>
                         <p>The WWW was started by Tim Berners Lee in March 1989, it first started as a way for researchers to share and information within a wide range.</p>
@@ -61,29 +62,220 @@
                         <h3>2. Server Applications</h3>
                         <p class="move">- An application that waits for requests from other applications, whether client or server application, and sends back a response accordingly.</p>
                         
+                        <h2 id="URs">URL</h2>
+                        <p>The URL(Uniform Resource Allocator) is the one that indicates where a web page is stored within the internet.</p>
+                        <h2>URI</h2>
+                        <p>A URI(Uniform Resource Identifier) is a means of identifying any kind of resource whether it be text, image and etc.</p>
+                        <h2>URN</h2>
+                        <p>The URN(Uniform Resoure Name) is an internet resource that is similar to the URL but instead of the location of the resource, a specific name is assigned to the resource making it easy for a person or program to find the resource. The URN is also a type of a URI.</p>
+                        <h3>How it Works</h3>
+                        <p class="move">Different web pages are stored or kept in web servers around the world and upon clicking a link or inpting the URL of webpage triggers a request for the web page from the web server, the server then transmits back a response containing the web page data that your web browser displays.</p>
+                        
                         <h1 id="HTTP">HTTP</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus suscipit volutpat ligula, et egestas tortor rhoncus non. Nullam vulputate risus nec ligula pretium condimentum. Sed euismod vitae eros at euismod. Quisque eleifend libero velit, vitae volutpat sem sagittis vitae. Cras varius placerat urna, eu euismod dui lobortis a.</p>
+                        <h2>HTTP or Hyper Text Transfer Protocol</h2>
+                        <p>HTTP is an application layer communication protocol that is used to access resources(hypertext/hypermedia) from the World Wide Web. Invented by Tim Berners Lee at CERN(Conseil Européen pour la Recherche Nucléaire) in 1989 together with W3C(World Wide Web Consortium) and IETF(Internet Engineering Task Force).</p>
                         
-                        <h2>Topic 1</h2>
-                        <p>Curabitur ornare nulla magna, id vestibulum nunc consectetur et. Donec porta facilisis augue, ut aliquet lacus tristique volutpat. Nunc purus erat, pretium eget nisi at, feugiat porta mauris. Integer mollis mauris eu velit gravida, a egestas leo pellentesque.</p>
+                        <h2 id="Versions">Versions</h2>
+                        <h3>HTTP 0.9</h3>
+                        <p class="move">(1991)-(TCP/IP connection using port 80; "GET"; only html)</p>
+                        <h3>HTTP 1.0</h3>
+                        <p class="move">(RFC(Remote Function Call) 1945, May 1996)-(pull protocol; always initiated by client)</p>
+                        <h3>HTTP 1.1</h3>
+                        <p class="move">(RFC 2068 January 1997, RFC 2616 June 1999); RFC 7230-7235 June 2014</p>
+                        <h3>HTTP 2.0</h3>
+                        <p class="move">(RFC 7540 May 2015)-(pipelining introduced; multiplexing; server push - server taking initiative)</p>
                         
-                        <h2>Topic 2</h2>
-                        <p>ras a lacus justo. Aliquam erat volutpat. Nam in eleifend mi. Quisque eleifend nunc quis metus venenatis, vel volutpat lacus scelerisque. Maecenas purus nibh, vulputate in volutpat ac, luctus vitae enim. Cras purus nisi, tempor ac accumsan eget, suscipit et sem. Aenean erat turpis, imperdiet et elementum in, sollicitudin vitae orci.</p>
+                        <h2 id="HTTPFun">HTTP Fundamentals</h2>
+                        <h3 class="less">- HTTP runs on top of TCP(Transmission Control Protocol/IP(Internet Protocol) with the use of TCP port 80 by default or TCP port 443 for HTTPS(Secure HTTP)</h3>
+                        <h3>- HTTP is based on a client-server architecture</h3>
+                        <h4>Servers</h4>
+                        <p class="move">- origin servers, proxy servers, gateways, tunnels, ...</p>
+                        <h4>Clients(a.k.a user agents)</h4>
+                        <p class="move">- Web browsers, web crawlers/spiders, other end user tools and applications.</p>
+                        <h3>- HTTP uses a request-response standard protocol</h3>
+                        <p class="move">- the client sends a HTTP request message to the server, the server receives the request and replies with a HTTP response message.</p>
+                        <h3>- HTTP is a stateless communications protocol</h3>
+                        <p class="move">- servers do not keep information about clients in-between requests</p>
+                        <h3>- HTTP Functionalities</h3>
+                        <p class="move">- cache control</p>
+                        <p class="move">- content media type specification</p>
+                        <p class="move">- content/transfer coding</p>
+                        <p class="move">- content negotiation</p>
+                        <p class="move">- client-server protocol negotiations</p>
+                        <p class="move">- persistent connections</p>
+                        <p class="move">- request pipelining/ multiplexing (HTTP2)</p>
+                        <p class="move">- authorization/authentication</p>
                         
-                        <h2>Topic 3</h2>
-                        <p>Proin aliquam dolor lorem, commodo pretium nunc ullamcorper sit amet. Duis vitae felis quam. Nullam aliquam semper leo varius porttitor. Praesent pretium justo diam, vel fringilla nunc condimentum ut. Suspendisse ex tellus, tempor in commodo non, imperdiet sed tortor. Sed scelerisque viverra dui, sed fringilla massa ornare at.</p>
+                        <h2 id="HTTP2">HTTP</h2>
+                        <p>- identified using URL's or more</p>
+                        <h3>Parts:</h3>
+                        <h4>Scheme</h4>
+                        <p class="move">- HTTP or HTTPS</p>
+                        <h4>Authority</h4>
+                        <p class="move">- User information or authentication credentials(depreciated)</p>
+                        <p class="move">- Host or domain name</p>
+                        <h4>Path(from root to resource)</h4>
+                        <p class="move">- Static or dynamic resource</p>
+                        <h4>Query</h4>
+                        <p class="move">- Provided as key = value pairs, with (&amp;) separators between key/value; started with question mark</p>
+                        <p class="move">- Can be URL-encoded</p>
+                        <h4>Port number</h4>
+                        <p class="move">- Specifies where to connect</p>
+                        <h4>Fragment identifier</h4>
+                        <p class="move">- Points to a fragment of the resource loaded(optional)</p>
+                        
+                        <h2 id="ReqMes">Request Message</h2>
+                        <h3 class="less">Request line (CRLF- terminated line consisting of three space separated values)</h3>
+                        <p class="move">Method</p>
+                        <p class="move">Request Target</p>
+                        <p class="move">Protocol Version</p>
+                        <h3 class="less">Message Headers</h3>
+                        <h3 class="less">Empty Line</h3>
+                        <h3 class="less">Message Body aka payload</h3>
+                        
+                        <h2 id="ReqMet">Request Methods</h2>
+                        <h3>Standard Methods</h3>
+                        <h4>GET</h4>
+                        <p class="move">- transfer a current selected representation of the target resource.</p>
+                        <p class="move">- most commonly used HTTP method, supported by generation pur servers.</p>
+                        <h4>HEAD</h4>
+                        <p class="move">- get status line and headers without payload.</p>
+                        <p class="move">- check status, similar to get but with no payload.</p>
+                        <h4>POST</h4>
+                        <p class="move">- request that the target resource perform resource-specific processing of the representation enclosed in the message body of the request.</p>
+                        <p class="move">- typically used in submitting HTML form data.</p>
+                        <h4>PUT</h4>
+                        <p class="move">- create or replace the state of the target resource with the state defined by the representation enclosed</p>
+                        <h4>DELETE</h4>
+                        <p class="move">- remove the association between the target resource and its current functionality</p>
+                        <h4>OPTIONS</h4>
+                        <p class="move">- request information about the communication options available for the target resource.</p>
+                        <p class="move">-the request target may be "*".</p>
+                        <h4>TRACE</h4>
+                        <p class="move">- request remote, application level loopback of the request message(request the recipient echo back to the client received request message).</p>
+                        <h4>CONNECT</h4>
+                        <p class="move">- request establishment of a tunnel to the destination origin server and if succesful thereafter restricts its behavior to blind-formating of products in both direction.</p>
+                        
+                        <h2 id="MetPro">Method Properties</h2>
+                        <h3 class="less">Safe Methods</h3>
+                        <p class="move">- read-only (Get, Head, Options, Truce)</p>
+                        <h3 class="less">Idempotent Methods</h3>
+                        <p class="move">- may not be read-only, only effective once(Get, Head, Options, Truce, Put, Delete)</p>
+                        <h3 class="less">Cacheable Methods</h3>
+                        <p class="move">- the response to a method is allowed to be stored for future reference(Get, Head, Post)</p>
+                        
+                        <h2 id="MesHea">Message Header</h2>
+                        <h3 class="less">General Header Fields</h3>
+                        <p class="move">- entity header fields</p>
+                        <h3 class="less">Request Header fields</h3>
+                        <p class="move">- more information about the resource to be retrieved</p>
+                        <h3 class="less">Response Header Fields</h3>
+                        <p class="move">- additional information about the response</p>
+                        <h3 class="less">Entity Header Fields(payload)</h3>
+                        <p class="move">- information about the body of the entity</p>
+                        
+                        <h2 id="StatC">Status Codes</h2>
+                        <h3 class="less">1XX: Information</h3>
+                        <h3 class="less">2XX: Success</h3>
+                        <h3 class="less">3XX: Redirect</h3>
+                        <h3 class="less">4XX: Client Error</h3>
+                        <h3 class="less">5XX: Server Error</h3>
+                    
+                        <h2>*HTTP Extensions</h2>
+                        <p>- Can be extended by defining new requests, methods, message headers and/or status codes.</p>
                         
                         <h1 id="HTML">HTML</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus suscipit volutpat ligula, et egestas tortor rhoncus non. Nullam vulputate risus nec ligula pretium condimentum. Sed euismod vitae eros at euismod. Quisque eleifend libero velit, vitae volutpat sem sagittis vitae. Cras varius placerat urna, eu euismod dui lobortis a.</p>
+                        <h2>HTML or Hypertext Markup Language</h2>
+                        <p>A markup language that is used in order to create websites or web applications. HTML is used to define the web page content and its layout.</p>
                         
-                        <h2>Topic 1</h2>
-                        <p>Curabitur ornare nulla magna, id vestibulum nunc consectetur et. Donec porta facilisis augue, ut aliquet lacus tristique volutpat. Nunc purus erat, pretium eget nisi at, feugiat porta mauris. Integer mollis mauris eu velit gravida, a egestas leo pellentesque.</p>
+                        <h2 id="HHist">History</h2>
+                        <p>On 1989, Tim Berners-Lee created the World Wide Web (WWW) together with Hypertext Markup Language (HTML) which was based on Standard Generalized Markup Lanugage (SGML). as its publishing language.</p>
                         
-                        <h2>Topic 2</h2>
-                        <p>ras a lacus justo. Aliquam erat volutpat. Nam in eleifend mi. Quisque eleifend nunc quis metus venenatis, vel volutpat lacus scelerisque. Maecenas purus nibh, vulputate in volutpat ac, luctus vitae enim. Cras purus nisi, tempor ac accumsan eget, suscipit et sem. Aenean erat turpis, imperdiet et elementum in, sollicitudin vitae orci.</p>
+                        <h2 id="XHTML">XHTML</h2>
+                        <p>XHTML was based on HTML 4.0 that follows the Extensible Markup Lanugage (XML) rules which means XHTML can create cerain set of rules of any kind of data that can be used for describing or creating the web page layout.</p>
                         
-                        <h2>Topic 3</h2>
-                        <p>Proin aliquam dolor lorem, commodo pretium nunc ullamcorper sit amet. Duis vitae felis quam. Nullam aliquam semper leo varius porttitor. Praesent pretium justo diam, vel fringilla nunc condimentum ut. Suspendisse ex tellus, tempor in commodo non, imperdiet sed tortor. Sed scelerisque viverra dui, sed fringilla massa ornare at.</p>
+                        <h2 id="TVS">HTML 4.0 vs HTML 5 vs XHTML </h2>
+                        <p>HTML 4 is the oldest version of HTML that is still used. HTML 4 has a loose syntax since having a closing tag was optional. HTML 4 is great for new developers since it is very easy to use and its very easy to adapt. HTML 4 has a disadvantage since loose syntax isnt great if you want to have an specific outcome for different browsers.</p>
+                        <p>XHTML was created to fix the problem of HTML 4 being a loose syntax. In XHTML all opening tags must have a closing tags. Since XHTML is more restricted, it wont allow you to have mistakes.</p>
+                        <p>HTML 5 is a new version of HTML which is still developing. HTML 5 is becoming more popular these days because of its new features. HTML 5 has also a loose syntax but it isnt a problem now since some programs that is used to create HTML auto generates a closing tags. HTML 5 still uses some of the best features of HTML 4 but it also have some new tags. One of the popular feature of HTML 5 is that you can embed videos directly without the use of plugins.</p>
+                        
+                        <h2 id="DocuStruct">Document Structure</h2>
+                        <p>HTML 4 needs to be started by a 	&#60;html&#62; tag and needs to be ended with &#60;/html&#62; tag. All other elements should appear inside &#60;html&#62; and &#60;/html&#62;. The head element is the one that appears first after the 	&#60;html&#62; tag. Inside the head,  the elements title, meta data, and script is placed together with the link of external css and some other resources that is needed. The contents of the web pages is placed inside the body elemnt. All of these are the basic structure of HTML document structure, since the HTML 5 has support from modern browsers, it is more ideal to use the new elemts to make the web pages structure more creative.</p>
+                        
+                        <h2 id="ETVS">Elements vs Tags</h2>
+                        <p>Elements are composed of a start tag (&#60;p&#62;) , a content (this is a content) and a closing tag(&#60;/p&#62;). Tags are composed of a two angle brackets and in the middle of those two angle brackets is an element name with or without attributes. </p>
+                        
+                        <h2 id="Attri">Attributes and Attribute Values</h2>
+                        <p>Attributes in HTML provides extra information about an element for example the href attribute. The &#60;a&#62; tags defines the HTML links and the address of the link is defined by href ex &#60;a href = “www.example.com” &#62; Link to www.example.com &#60;a/&#62;.</p>
+                        <h3>Other Examples of Attributes</h3>
+                        <table>
+                            <tr>
+                                <td>alt</td>
+                                <td>When the image can't be displayes, it specifies a replacement text for an image.</td>
+                            </tr>
+                            <tr>
+                                <td>disabled</td>
+                                <td>Specify an input element to be disabled</td>
+                            </tr>
+                            <tr>
+                                <td>href</td>
+                                <td>Defines the web address for a link</td>
+                            </tr>
+                            <tr>
+                                <td>src</td>
+                                <td>Defines the web address for an image</td>
+                            </tr>
+                        </table>
+                        
+                        <h2 id="Glob">Global Attributes</h2>
+                        <p>Global attributes are attributes that are common to all elements in HTML, which means they can be used by all other elements.</p>
+                        <h3>Other Examples of Global Attributes</h3>
+                        <table>
+                            <tr>
+                                <td>accesskey</td>
+                                <td>Specify a key to activate a certain element</td>
+                            </tr>
+                            <tr>
+                                <td>class</td>
+                                <td>Lists of classification names which an elemnt belongs</td>
+                            </tr>
+                            <tr>
+                                <td>contenteditable</td>
+                                <td>Specify if a content of an element is editable</td>
+                            </tr>
+                            <tr>
+                                <td>contextmenu</td>
+                                <td>Specifies the context menu of a certain element</td>
+                            </tr>
+                            <tr>
+                                <td>dir</td>
+                                <td>Specify the direction of the elements text</td>
+                            </tr>
+                            <tr>
+                                <td>draggable</td>
+                                <td>Specify if an element is draggable</td>
+                            </tr>
+                            <tr>
+                                <td>src</td>
+                                <td>Defines the web address for an image</td>
+                            </tr>
+                            <tr>
+                                <td>src</td>
+                                <td>Defines the web address for an image</td>
+                            </tr>
+                            <tr>
+                                <td>src</td>
+                                <td>Defines the web address for an image</td>
+                            </tr>
+                            <tr>
+                                <td>src</td>
+                                <td>Defines the web address for an image</td>
+                            </tr>
+                            <tr>
+                                <td>src</td>
+                                <td>Defines the web address for an image</td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
             </div>
