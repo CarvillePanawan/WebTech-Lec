@@ -15,9 +15,15 @@ WWW
     2. Server Applications
       - An application that waits for requests from other applications, whether client or server application, and sends back a 
         response accordingly.
+URI
+  A URI(Uniform Resource Identifier) is a means of identifying any kind of resource whether it be text, image and etc.
 URL
-  The URL(Uniform Resource Allocator) is the one that indicates where a web page is stored within the internet. 
+  The URL(Uniform Resource Allocator) is the one that indicates where a web page is stored within the internet. A URL is also a type of a
+  URI.
+URN
+  The URN(Uniform Resoure Name) is an internet resource that is similar to the URL but instead of the location of the resource, a specific 
+  name is assigned to the resource making it easy for a person or program to find the resource. The URN is also a type of a URI.
 How it Works
-  Different web pages are stored or kept in web servers around the world and upon clicking a link or inpting the URL of webpage 
+  Different web pages are stored or kept in web servers around the world and upon clicking a link or inputing the URL of webpage 
   triggers a request for the web page from the web server, the server then transmits back a response containing the web page data 
   that your web browser displays.
