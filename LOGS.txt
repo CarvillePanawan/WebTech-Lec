@@ -1,71 +1,109 @@
-282d0b9 -cs-13, 20 minutes ago: Updated websites and fixed unmerged files for my local repository
+cbfbc8e -cs-13, (2018-02-26 14:52:50) : Finalized website, uploaded LOGS.txt and README.txt.
 
-c070c57 -cs-13, 70 minutes ago: Updated the website's contents.
 
-3fbbe9e -kchinayog, 2 hours ago: Update About 
+282d0b9 -cs-13, (2018-02-26 14:26:05) : Updated websites and fixed unmerged files for my local repository
 
-US7cad4a9 -kchinayog, 2 hours ago: Update About 
 
-US5196e99 -Jaime Carvajal, 2 hours ago: Add files via upload
+c070c57 -cs-13, (2018-02-26 13:36:04) : Updated the website's contents.
 
-505103e -kchinayog, 2 hours ago: Create About 
 
-US20a50ff -kchinayog, 2 hours ago: Update References for HTML notes
+3fbbe9e -kchinayog, (2018-02-26 12:49:48) : Update About US
 
-8507002 -kchinayog, 2 hours ago: Update WWW
 
-81d1c1b -kchinayog, 2 hours ago: Update References for HTML notes
+7cad4a9 -kchinayog, (2018-02-26 12:48:41) : Update About US
 
-1d9785c -kchinayog, 3 hours ago: Update References for HTML notes
 
-09e3ae7 -kchinayog, 14 hours ago: Update References for HTML notes
+5196e99 -Jaime Carvajal, (2018-02-26 12:47:07) : Add files via upload
 
-d34246e -kchinayog, 14 hours ago: Update WWW
 
-e69cd3e -cs-13, 15 hours ago: Finalized the website's layout, added some contents.
+505103e -kchinayog, (2018-02-26 12:38:40) : Create About US
 
-7dc995b -JRSibaen, 19 hours ago: Added references used in html notes
 
-c14e4d8 -Jan Rei A. Sibaen, 22 hours ago: Added contents and edited HTML CONTENTS.odt
+20a50ff -kchinayog, (2018-02-26 12:26:37) : Update References for HTML notes
 
-b5fb1f5 -Jaime Carvajal, 28 hours ago: Add files via upload
 
-7fb5e7b -Jaime Carvajal, 30 hours ago: Add files via upload
+8507002 -kchinayog, (2018-02-26 12:24:37) : Update WWW
 
-ca95ffb -kchinayog, 2 days ago: Update WWW
 
-d89c161 -Jan Rei A. Sibaen, 2 days ago: added more contents about html
+81d1c1b -kchinayog, (2018-02-26 12:24:02) : Update References for HTML notes
 
-f5ad396 -Jan Rei A. Sibaen, 2 days ago: Added html contents
 
-9c2bd08 -cs-13, 2 days ago: Updated the website
+1d9785c -kchinayog, (2018-02-26 12:09:53) : Update References for HTML notes
 
-f811f10 -kchinayog, 4 days ago: Create WWW
 
-f855c4c -cs-13, 4 days ago: Added the updated version of the website.
+09e3ae7 -kchinayog, (2018-02-26 01:04:59) : Update References for HTML notes
 
-426a50a -JRSibaen, 4 days ago: Create HTML NOTES
 
-2ef8977 -Jaime Carvajal, 4 days ago: Add files via upload
+d34246e -kchinayog, (2018-02-26 00:59:34) : Update WWW
 
-88deac6 -cs-13, 5 days ago: Merge branch 'master' of https://github.com/cs-13/WebTech-Lec
 
-70b29d1 -cs-13, 5 days ago: Updated the template of the website.
+e69cd3e -cs-13, (2018-02-26 00:09:59) : Finalized the website's layout, added some contents.
 
-f689c38 -kchinayog, 10 days ago: Create 1html.html
 
-5c8e4ef -kchinayog, 10 days ago: Create http.html
+7dc995b -JRSibaen, (2018-02-25 19:33:31) : Added references used in html notes
 
-54ed670 -kchinayog, 10 days ago: Create www.html
 
-4513f91 -cs-13, 2 weeks ago: Added template for the website.
+c14e4d8 -Jan Rei A. Sibaen, (2018-02-25 17:00:47) : Added contents and edited HTML CONTENTS.odt
 
-d193dbb -cs-13, 3 weeks ago: Create Notes
 
-fd01079 -kchinayog, 3 weeks ago: Update lessons.txt
+b5fb1f5 -Jaime Carvajal, (2018-02-25 11:14:43) : Add files via upload
 
-4257e24 -kchinayog, 4 weeks ago: Update lessons.txt
 
-bca0eb2 -kchinayog, 4 weeks ago: Add files via upload
+7fb5e7b -Jaime Carvajal, (2018-02-25 08:42:11) : Add files via upload
 
-c6defb2 -cs-13, 4 weeks ago: Create README.md
+
+ca95ffb -kchinayog, (2018-02-25 01:38:31) : Update WWW
+
+
+d89c161 -Jan Rei A. Sibaen, (2018-02-24 23:39:23) : added more contents about html
+
+
+f5ad396 -Jan Rei A. Sibaen, (2018-02-24 22:28:21) : Added html contents
+
+
+9c2bd08 -cs-13, (2018-02-24 03:42:13) : Updated the website
+
+
+f811f10 -kchinayog, (2018-02-22 22:56:04) : Create WWW
+
+
+f855c4c -cs-13, (2018-02-22 22:29:14) : Added the updated version of the website.
+
+
+426a50a -JRSibaen, (2018-02-22 17:14:05) : Create HTML NOTES
+
+
+2ef8977 -Jaime Carvajal, (2018-02-22 16:01:20) : Add files via upload
+
+
+88deac6 -cs-13, (2018-02-21 22:11:14) : Merge branch 'master' of https://github.com/cs-13/WebTech-Lec
+
+
+70b29d1 -cs-13, (2018-02-21 22:10:30) : Updated the template of the website.
+
+
+f689c38 -kchinayog, (2018-02-16 21:17:15) : Create 1html.html
+
+
+5c8e4ef -kchinayog, (2018-02-16 21:15:35) : Create http.html
+
+
+54ed670 -kchinayog, (2018-02-16 21:13:23) : Create www.html
+
+
+4513f91 -cs-13, (2018-02-09 18:34:39) : Added template for the website.
+
+
+d193dbb -cs-13, (2018-02-05 22:53:15) : Create Notes
+
+
+fd01079 -kchinayog, (2018-02-02 22:55:56) : Update lessons.txt
+
+
+4257e24 -kchinayog, (2018-01-30 19:52:02) : Update lessons.txt
+
+
+bca0eb2 -kchinayog, (2018-01-30 19:20:53) : Add files via upload
+
+
+c6defb2 -cs-13, (2018-01-29 19:05:09) : Create README.md

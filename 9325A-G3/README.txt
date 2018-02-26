@@ -1,1 +1,2 @@
-The only step for the set up of the website, in order for the links to work, is to put all the files "CSS", "HTML", "IMAGES" and "index.html" in a folder name "website".
+Setup
+- To view the website locally and have the links work properly simply put the files "CSS", "HTML", "IMAGE" and "index.html" in a folder name "website".
