@@ -1,0 +1,71 @@
+282d0b9 -cs-13, 20 minutes ago: Updated websites and fixed unmerged files for my local repository
+
+c070c57 -cs-13, 70 minutes ago: Updated the website's contents.
+
+3fbbe9e -kchinayog, 2 hours ago: Update About 
+
+US7cad4a9 -kchinayog, 2 hours ago: Update About 
+
+US5196e99 -Jaime Carvajal, 2 hours ago: Add files via upload
+
+505103e -kchinayog, 2 hours ago: Create About 
+
+US20a50ff -kchinayog, 2 hours ago: Update References for HTML notes
+
+8507002 -kchinayog, 2 hours ago: Update WWW
+
+81d1c1b -kchinayog, 2 hours ago: Update References for HTML notes
+
+1d9785c -kchinayog, 3 hours ago: Update References for HTML notes
+
+09e3ae7 -kchinayog, 14 hours ago: Update References for HTML notes
+
+d34246e -kchinayog, 14 hours ago: Update WWW
+
+e69cd3e -cs-13, 15 hours ago: Finalized the website's layout, added some contents.
+
+7dc995b -JRSibaen, 19 hours ago: Added references used in html notes
+
+c14e4d8 -Jan Rei A. Sibaen, 22 hours ago: Added contents and edited HTML CONTENTS.odt
+
+b5fb1f5 -Jaime Carvajal, 28 hours ago: Add files via upload
+
+7fb5e7b -Jaime Carvajal, 30 hours ago: Add files via upload
+
+ca95ffb -kchinayog, 2 days ago: Update WWW
+
+d89c161 -Jan Rei A. Sibaen, 2 days ago: added more contents about html
+
+f5ad396 -Jan Rei A. Sibaen, 2 days ago: Added html contents
+
+9c2bd08 -cs-13, 2 days ago: Updated the website
+
+f811f10 -kchinayog, 4 days ago: Create WWW
+
+f855c4c -cs-13, 4 days ago: Added the updated version of the website.
+
+426a50a -JRSibaen, 4 days ago: Create HTML NOTES
+
+2ef8977 -Jaime Carvajal, 4 days ago: Add files via upload
+
+88deac6 -cs-13, 5 days ago: Merge branch 'master' of https://github.com/cs-13/WebTech-Lec
+
+70b29d1 -cs-13, 5 days ago: Updated the template of the website.
+
+f689c38 -kchinayog, 10 days ago: Create 1html.html
+
+5c8e4ef -kchinayog, 10 days ago: Create http.html
+
+54ed670 -kchinayog, 10 days ago: Create www.html
+
+4513f91 -cs-13, 2 weeks ago: Added template for the website.
+
+d193dbb -cs-13, 3 weeks ago: Create Notes
+
+fd01079 -kchinayog, 3 weeks ago: Update lessons.txt
+
+4257e24 -kchinayog, 4 weeks ago: Update lessons.txt
+
+bca0eb2 -kchinayog, 4 weeks ago: Add files via upload
+
+c6defb2 -cs-13, 4 weeks ago: Create README.md

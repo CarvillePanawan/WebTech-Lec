@@ -1,0 +1,1 @@
+The only step for the set up of the website, in order for the links to work, is to put all the files "CSS", "HTML", "IMAGES" and "index.html" in a folder name "website".
