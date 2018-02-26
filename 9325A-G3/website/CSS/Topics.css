@@ -72,6 +72,7 @@
 
 table {
     border-collapse: collapse;
+    width: 100%;
 }
 
 table,
@@ -81,4 +82,9 @@ td {
 
 td {
     padding: 0.5em;
+}
+
+.adjust {
+    width: auto;
+    margin-left: 15%;
 }

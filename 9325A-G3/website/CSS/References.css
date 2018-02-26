@@ -1,0 +1,28 @@
+#information {
+    position: inherit;
+    height: 80%;
+    width: 80%;
+    display: block;
+    padding: 1em;
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #222;
+    background-color: rgb(219, 219, 219);
+}
+
+#content_r {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    min-height: 100vh;
+    min-width: 100vw;
+    font-family: "Century Gothic", sans-serif;
+    display: flex;
+    flex-direction: column;     
+    justify-content: center;
+    align-items: center; 
+    background-color: rgb(219, 219, 219);
+}
+
+p {
+    margin-left: 2em;
+    text-indent: -2em;
+}
