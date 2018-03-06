@@ -1,0 +1,45 @@
+CSS
+  - version history (to be added)
+  - description (to be added)
+
+HTML STYLESHEETS
+  - description (to be added)
+
+author style (add examples and or descriptions)
+  - external
+  - embedded
+  - inline
+
+user style
+  - description
+  - example
+
+at rules
+CSS rule set
+
+CSS Selector
+- description
+
+* selector sytax
+  -description
+
+*combinators
+  - descendant combinator (white space)
+  - child combinator (>)
+  - sibling combinator
+    - adjacent sibling combinator (+)
+    - general sibling combinator (~)
+
+*pseudo-element
+  - ::first-letter
+  - ::first-line
+  - ::before
+  - ::after
+    counter-reset & counter-increment
+
+*simple selector
+  - universal selector (*)
+  - type selectors (name of elements)
+  - ID selector (# followed by id value)
+  - class selector (. followed by class value)
+  - attribute selector (element[specific attribute])
