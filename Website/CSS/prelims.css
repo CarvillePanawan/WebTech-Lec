@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#content {
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.tab {
+	overflow: scroll;
+	overflow-x: hidden;
+	float: left;
+	width: 20vw;
+	height: 100%;
+    background-color: #fff;
+	border-right: 1px solid #222; 
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+	text-align: left;
+	width: 100%;
+	display: block;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 8% 0 8% 13%;
+    transition: 0.3s;
+	font-size: 1em;
+	font-family: "Century gothic", sans-serif;
+}
+
+.sub {
+	text-indent: 1em;
+}
+
+.tab button:hover {
+    background-color: #222;
+	color: #fff;
+}
+
+.tab button.active {
+    background-color: #414141;
+	color: #fff;
+}
+
+.tabcontent {
+    display: none;
+	background-color: blue;
+    margin: 2% 2% 2% 22%;
+	padding: 2% 2% 2% 2%;
+}
+
+#container {
+    min-height: 100%;
+    min-width: 100%;
+}
+
+#p-banner {
+    height: 100vh;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../IMAGES/bg2.png);
+    background-repeat: no-repeat;
+    background-position: 50% 43%;
+}
+
+#p-space {
+    margin-top: -6vh;
+    height: 6vh;
+    background-color: rgba(255, 255, 255, 0.8);
+	border-bottom: 1px solid #222;
+}
+
+#p-span {
+	width: 100%;
+	height: 0.1vh;
+	background-color: rgba(0, 0, 0, 0);
+	display: block;
+	z-index: -1;
+}
