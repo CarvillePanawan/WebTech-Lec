@@ -1,0 +1,134 @@
+CSS
+-Developed by Hakom Wicum Lie and Bert Bos
+-CSS level 1 (CSS 1, W3C Recommendation,Dec1996 )
+-CSS Level 2 (CSS 2, W3C Recommendation, May 1998 )
+-CSS Level 2 Revision (CSS, W3C Recommendation, June 2011 )
+-CSS 3 - modular approach to CSS sevelopment
+
+Styles
+-author styles
+--external(linked)
+--embedded(ibternal)
+--inline
+-user styles
+--
+-user agent styles
+
+CSS Statements
+-at-rules
+a. charset
+b. font-face
+c. keyframes
+d. media
+-CSS-Rules (Style Rule)
+-consists of a selector
+
+CSS Selectors(Level 3)-curresnt
+-a condition in a CSS rule to determine what elements in the documenr tree are matched by the selector and are 
+ thus targeted by the formating psecified in the CSS declaration block
+Syntax of Selectors
+-Sequences of selectors; combinators
+-start with type selector or universal selector
+-no other type or universla selector
+-match other slectors in the sequence
+Selector group
+-comma - separated list of selectors representing the union of all elements
+Simple Selectors 
+- ...... a lot
+Cobinators
+-Descendant - whitespace
+-child combinator - >
+-sibling combinator
+--adjacent - +
+--general - ~ *css3 included
+Pseudo-elements
+- :firstletter , ::first letter    *css3 included
+- :firstline , ::first-line *css3 included
+- ;before , ::before *css3 included
+- :after , ::after *css3 included
+Simple selectors
+-universal selector
+-type v
+-ID selector
+-class selector
+-attribute selector
+-presudo-classes
+
+CSS Rule Precendence
+-multiple style rules
+-multiple target, they cascade
+-involve hte same property, they conflict
+-resolution
+--by orogin nad importance > 1st level
+--by specifity > 2nd levelk
+--by order > 3rd level * later declaration wins
+
+Properties
+-shorthand property - allows other to specify the rule of several properties with a single property
+-Cevtor specific extension - used by browser as a prfis for ecperimental or non-standard CSS properties
+-custom properties(CSS Variables) - property named with -- , reperesenting a value than can be reused using the var()
+
+Vlues
+-value processing
+--declared, cascaded, specific, computed, used, actual
+-value types
+--keywords
+---CSS-wide keywords(initial,inherit,actual)
+---propery-specific keywords
+-Numbers
+--integers or real in decimal notation
+-dimensions
+--length, angle, duration, resolution
+--length units
+---font-raelation : em,ex,ch,rem
+---viewport-percentage : vw,vh,vmin,vmax
+---absolute : cm,mm,in,pt,pc,px
+--angloe units
+---deg,grad,turn
+---used in some gradient and transform function
+--duration for time units
+---s,ms
+---used in animation,transistion, and related properties
+--frequency units
+---Hz,kHz
+---initially introduced in CSS2 for the avrol media type, reintroduced in CSS3 but is currently unused
+--resolution width
+---dpi,dpcm,dppx
+---used in media queries
+--percentage
+---number with % suffix
+--URL and URI
+--absolute or relative (to the stylesheet)
+
+-Colors
+--color keywords : red
+--RGB hexadecimal notation : #ff00000
+--RGB functions : rgb(255,00)
+--HSL functions : hsl(0,100%,50%)
+--current color > tranparent
+
+-String
+--delimnited by single quotes ' or double quotes "
+
+-Functions
+--.............. a lot
+
+-Miscellaneous
+
+CSS Preprocessor
+-generates CSS using custom languages syntax typically includes feature that dont exist in pure CSS
+
+CSS Frameworks
+-provides predertimed CSS design functionality that can be revised, extended, and customized
+
+Polyfill
+-provides features that developers expect browsers to provide natively
+
+Clien Side Scripting
+-Javascript
+--deter - after rendering tha page then execute
+--async - execute after it has been fetched
+--top-level code - execuite when encountered
+--code inside function - similar to a method call
+DOM (Document Object Model)
+
