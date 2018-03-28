@@ -91,3 +91,77 @@ e.g. h1, h2, h3
 	: nth-last-of-type()
 : empty
 *all CSS3 except first-child
+
+=====================================================================
+
+	negation
+	:not (CSS3)
+o	combinators
+	descendant combinator (whitespace ie space, tab, line feed, carriage return, form feed)
+	child combinator (>)
+	sibling combinators
+		adjacent sibling combinator (+)
+		general sibling combinator (~) CSS3
+o	pseudo-elements
+	:: first-letter	, : first-letter
+	:: first-line	, : first-line
+	:: before	, : before
+	:: after		, : after
+
+
+
+CSS Rule Precedence
+>by origin and importance
+//ADDED
+-Resource: https://www.w3.org/TR/CSS2/cascade.html
+	Sort according to importance (normal or important) and origin (author, user, or user agent). In ascending order of precedence:
+o	user agent important declarations
+o	user important declarations
+o	author important declarations
+o	author normal declarations
+o	user normal declarations
+o	user agent normal declarations
+	by specificity
+o	inline style
+o	number of ID selectors
+o	number of class selectors, attribute selectors and pseudo-classes
+o	number of type selectors and pseudo-elements
+	by order
+
+CSS Declarations
+	Properties
+		-shorthand properties
+			- initial	(non-inheritable, global keyword)
+			- inherit	(inheritable)     
+ 			- unset	    (inheritable, non-inheritable)
+			- revert	(global keyword)	
+		-vendor-specific extensions 
+			- also known as vendor prefixes
+	B. Values
+		- keywords
+		- numbers (integers and reals in decimal notation)
+		- dimensions
+			- length, angle, duration, frequency, resolution
+			- length units:
+				- font-relative: em ex ch rem
+				- viewport-percentage: vw vmin vmax
+				- absolute lengths: cm mm q in pt pc px
+			- angle units: deg grad rad turn
+			- duration units: s ms
+			- frequency units: hz khz
+			- resolution units: dpi dpcm dppx
+		- percentages
+		- URLs and URIs
+		- colors
+		- strings
+		- functions: calc() attr() counter() counters() linear-gradient() radial-gradient() translate() scale() rotate() etc.
+
+================================================
+
+
+
+
+
+
+
+
