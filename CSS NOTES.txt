@@ -35,13 +35,11 @@ user style
   - example
 
 at rules
+
 CSS rule set
 
 CSS Selector
-- description
-
-* selector sytax
-  -description
+- CSS selector is used to select a specific element or group of element based by their class,name,id, etc.
 
 *combinators
   - descendant combinator (white space)
