@@ -1,0 +1,65 @@
+DATATYPES
+1. number
+  - the datatype number can be a decimal integer, decimal floating point or a decimal scientific notation
+  - you can also represent numbers with base 2,8, and 16
+  - there are also special numbers which are infinity, -infinity, and NaN
+  NOTE:
+  Division with numbers will always result as a decimal floating point and beware of inexact result
+  e.g.
+  var num = 10;
+  num = 1.5;
+  num = 3.1e7;
+2. string
+  - the string datatype can be represented by a single quote ('') or a double qoute ("")
+  e.g.
+  var str = 'hi';
+  str = "hello";
+3. boolean
+  - the boolean data type has two values. The first is the falsy values which is represented by false,null,0,'', and undefined. 
+    The second is the truthy values which are the values other than the falsy values 
+    e.g.
+    var bol = false;
+    bol = null;
+    bol = true;
+4. null and undefined
+  e.g.
+  var n = null;
+  n = undefined;
+5. Object
+  - object tyoes coresponds to primitive data
+  e.g.
+  var obj = new String("string");
+  obj = new Number(100);
+  
+  FUNCTIONS
+  - functions in javascript lets you return any type of value you want. The parameters of a function can be any data type and it doesnt
+    need to be consistent
+  example of syntax:
+  function fnc (a,b){
+    if(a>b){
+      return a;
+    }else{
+      return b;
+    }
+  }
+  func(1,false);
+  func("aas",null);
+  
+  There is an object called argument in javascript which is an array that treats the parameter of a function as a data inside the array
+  example:
+  function fnc1(a,b){
+    console.log(argument[0]); //the output is whatever the value of a 
+    console.log(argument[1]); //the output is whatever the value of b
+  }
+  
+  There is a parameter called rest parameter which is represented by three dots (...). The rest parameter lets you have an
+  indefinite number of parameter or argument in a function
+  example
+  function fnc2(a...b){
+  }
+  
+ The function can also be represented as expressions
+ example
+ var func = function (a,b){return a/b;};
+ The function can also represented as an array function
+ var func1 = (a,b) => {var c = a/b; return c;};
