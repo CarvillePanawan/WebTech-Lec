@@ -63,3 +63,30 @@ DATATYPES
  var func = function (a,b){return a/b;};
  The function can also represented as an array function
  var func1 = (a,b) => {var c = a/b; return c;};
+
+
+EVENT HANDLING
+Event Propagation - event propagation determines in which order the elements receive the event. There are two ways of event propagation mainly:
+
+Capture Phase - with capturing, the first event to be captured and handled is the outermost elememt going to the innermost element.
+ex. <div>
+      <ul>
+        <li></li>
+      </ul>
+    </div>
+In this example, assume that a click event happened on <li>, the order of propagation would then be from <div> to <ul> to <li>. 
+Bubble Phase - with bubbling, the first event to be captured and handled is the innermost elememt going to the outermost element.
+ex. <div>
+      <ul>
+        <li></li>
+      </ul>
+    </div>
+ In this example, assume that a click event happened on <li>, the order of propagation would then be from <li> to <ul> to <div>. 
+ 
+Event Handler Registration 
+- using an inline event attributes
+- using addEventListener, removeEventListener, dispatchEvent
+- using attachEvent, fireEvent
+
+Event Objects Properties and Methods
+- 
