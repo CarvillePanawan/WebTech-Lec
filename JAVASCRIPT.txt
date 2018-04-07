@@ -89,4 +89,17 @@ Event Handler Registration
 - using attachEvent, fireEvent
 
 Event Objects Properties and Methods
-- 
+- bubble
+- eventPahse
+- target
+- current target
+- preventDefault
+- stopPropagation
+- stopImmediatePropagation
+
+JavaScripts API
+Synchronous
+Asynchronous
+XMLHTTPREQUEST Object
+Promise Object
+
