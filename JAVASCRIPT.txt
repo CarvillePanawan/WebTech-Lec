@@ -98,8 +98,38 @@ Event Objects Properties and Methods
 - stopImmediatePropagation
 
 JavaScripts API
-Synchronous
-Asynchronous
-XMLHTTPREQUEST Object
+Execution of Synchronous and Asynchronous Codes
+  - JavaScript is a single-threaded programming language which means that it can only execute one statement at a time.
+    Synchronous - this means that while a statement is being executed, following line of statements can't be executed.
+    ex. console.log(" First ");
+        console.log(" Second ");
+        console.log(" Third ");
+        In this example, when the statement console.log(" First "); is executed, following statements are blocked and cannot           be executed. The output should then be:
+        First
+        Second
+        Third
+    Asynchronous - this means that while a statement is being executed, the next line of codes can be executed even though         current statement are executing. It may seem that a synchronous execution is straightforward but it can really be slow.
+    With asynchronous execution, things can get faster especially with image processing, file operation and others.
+    ex. console.log("1");
+        setTimeout( function() {
+          console.log("3");
+        }
+        console.log("2");
+        In this exmaple, we used setTimeout(), let us say that the parameters for the function is setTimeout(callback, 2000).         It has the component callback and 2000 ms, callback will let the user know if the execution is done within the time of         2 seconds. The first statement is executed then the second one which is the function setTimeout(). While it is                 executing, lines after it can be executed. After 2 seconds, callback is now triggered and the statement is now                 executed. The output should then be:
+        1
+        2
+        3
+XMLHttpRequest Object
+  - with this object, updating the parts of the webpage with reloading the whole page is possible.
+  - XMLHttpRequest Object is used to give and take data with a server in background.
+  Some properties of this objects are:
+    - status
+    - statusText
+    - responseText
+    - responceXML
+    - readyState
+    - onreadystatechange
+    
 Promise Object
+
 
