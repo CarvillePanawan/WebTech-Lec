@@ -1,0 +1,118 @@
+Cascading Style Sheet (CSS)
+ - CSS is a style sheet language used to specify the presentation aspects (e.g. layout and formatting) of structurally marked up documents. 
+ CSS was created by Hakom Wicum Lie and Bert Bos which started in 1994 at CERN.
+ >Versions
+  - CSS level 1 (CSS 1) was released in 1996 where it mostly dealt with text alterations.
+  - CSS Level 2 (CSS 2) was officially published in 1998 by W3C where page layout editing was added.
+  - CSS Level 2 Revision (CSS, W3C Recommendation, June 2011 )
+  - CSS level 3 (CSS 3) drafts appeared in 1999 pertaining to a modular approach to CSS development.
+  
+ >HTML/XHTML Stylesheet
+  - Author styles - front-end developer who designed/styled the page
+   1. External - External style uses a css file to describe the elements of multiple HTML page. external style is added in the HTML by 
+   adding a link inside the <head>.
+   e.g.
+    <head>
+      <link rel="stylesheet" href="stylesheet.css">
+     </head>
+   2. Embedded - Embedded style is used to describe the elements of a single HTML page. The description is added in the <head> 
+   within the <style
+   eg.
+   <head>
+      <style>
+        body{
+          background-color:blue;
+        }
+      </style>
+    </head>
+    3. Inline - Inline style describe a specific element of HTML. Inline is used to describe the element, the style attribute that is used.
+    e.g.
+    <p style="color:white">Example</p>
+    
+   - User styles - The end user who will be utilizing the webpage may change the the default style information for a particular document.
+   
+    - User agent styles - User agents are browser such as firefox and chrome wherein they have their own default stylesheet.
+   
+>CSS Statements -
+ a. charset - 
+ b. font-face - 
+ c. keyframes -
+ d. media -
+ 
+>CSS Rule Set - A CSS rule set consists of a selector and an a declaration  block which can be populated with the correct property delimited by a ' ; '(semicolon).
+e.g.
+    h3 {
+      color: blue;
+      text-align: right;
+    }
+    
+>CSS Selectors - CSS selector is used to select a specific element or group of element based by their class,name,id, etc.
+ -Selector Syntax - Chain of one or more sequences of simple selectors separated by combinators, with one pseudo-element possibly appended to the last sequence.
+ eg. div #abc > p.xyz [title] + span: first_child::after
+ 
+ -Simple Selector Sequence - 
+  ->Chain of simple selectors not separated by combinators
+	->Always starts with a type sector or a universal selector
+	->Cannot contain other type selectors or universal selectors 
+  
+ -Selector Group -
+ 
+ -Simple Selectors -
+ 
+ -Combinators - 
+ 
+ -Pseudo Elements -
+ 
+>CSS Rule Precedence - Systematic order of execution of same property within the stylesheet.
+ -Conflict Resolution
+  -> 1st level - by origin and importance 
+  -> 2nd level - by specifity 
+  -> 3rd level - later declaration is chosen
+  
+>CSS Declarations - 
+  -Properties - 
+   -> shorthand property - allows other to specify the rule of several properties with a single property
+   -> Vendor specific extension - used by browser as a prfis for ecperimental or non-standard CSS properties
+   -> custom properties(CSS Variables) - property named with -- , reperesenting a value than can be reused using the var()
+   
+  -Values - 
+   -> Value Processing - declared > cascaded > specific > computed > used > actual
+   -> Value types - 
+    -- keywords
+     - CSS-wide keywords(initial,inherit,actual)
+     - propery-specific keywords
+   -> Numbers - are integers or real numbers in decimal notation.
+   -> Dimensions - 
+    -- length, angle, duration, resolution
+    -- length units
+     - font-raelation : em,ex,ch,rem
+     - viewport-percentage : vw,vh,vmin,vmax
+     - absolute : cm,mm,in,pt,pc,px
+    -> Angle units - can be utilized in some gradient and transform functions and used in animation,transistion, and related properties. 
+     -- deg,grad,turn
+    ->Duration for time units
+     -- s,ms
+    ->Frequency Units - Initially introduced in CSS2 for the avrol media type, reintroduced in CSS3 but is currently unused.
+     -- Hz,kHz
+    ->Resolution width - Normally used in media queries.
+     -- dpi,dpcm,dppx
+    ->Percentage - Used to denote a part from a whole
+     -- number with % suffix
+     ->URL and URI - Necessary to be absolute or relative (to the stylesheet)
+     ->Colors
+      --color keywords
+      - RGB hexadecimal notation
+      - RGB functions
+      - HSL functions
+      - current color
+    ->String - it is delimnited by single quotes ' or double quotes "
+    ->Functions - 
+    ->Miscellaneous
+    
+ >CSS Preprocessor - Generate CSS using custom languages syntax typically includes feature that dont exist in pure CSS.
+ 
+ >CSS Frameworks - Provides predertimed CSS design functionality that can be revised, extended, and customized
+ 
+ >Polyfill - provides features that developers expect browsers to provide natively
+ 
+ 
