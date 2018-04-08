@@ -34,10 +34,10 @@ Cascading Style Sheet (CSS)
     - User agent styles - User agents are browser such as firefox and chrome wherein they have their own default stylesheet.
    
 >CSS Statements -
- a. charset - 
- b. font-face - 
- c. keyframes -
- d. media -
+ a. charset -  specifies the character encoding used in the style sheet.
+ b. font-face -  allows the user to display a font on a Web page even if the font is not installed on the users' computer.
+ c. keyframes - specifies the animation code. The animation is created by gradually changing from one set of CSS styles to another. 
+ d. media - can be used to apply styles based on the result of one or more media queries, which test a device's type, specific characteristics, and environment.
  
 >CSS Rule Set - A CSS rule set consists of a selector and an a declaration  block which can be populated with the correct property delimited by a ' ; '(semicolon).
 e.g.
@@ -136,4 +136,7 @@ e.g.
  
  >Polyfill - provides features that developers expect browsers to provide natively
  
- 
+ https://www.w3schools.com/cssref/pr_charset_rule.asp
+ http://www.miltonbayer.com/font-face/
+ https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp
+ https://developer.mozilla.org/en-US/docs/Web/CSS/%40media
