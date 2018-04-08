@@ -1,5 +1,5 @@
 JAVASCRIPT - INTERACTIVE FRONT-END WEB DEVELOPMENT
-JavaScript is a high-level, web-scripting programming language that is widely used for 
+JavaScript is a high-level, web-scripting programming language that is widely used for making the websites more interactive.
 DATATYPES
 1. number
   - the datatype number can be a decimal integer, decimal floating point or a decimal scientific notation
@@ -63,8 +63,45 @@ DATATYPES
  The function can also be represented as expressions
  example
  var func = function (a,b){return a/b;};
- The function can also represented as an array function
+ The function can also represented as an arrow function expression
  var func1 = (a,b) => {var c = a/b; return c;};
+
+ARRAYS
+- Arrays in java script are dynamic in size and it allows sparse arrays
+Methods used in arrays
+1.push method
+- Add a new item at the end of the array
+e.g
+var colors = ["red","blue","green"];
+colors.push("yellow");
+2.pop method
+- Removes an item at the end of the array
+e.g.
+colors.pop();
+3.unshift method
+- Add a new item at the beginning of the array
+e.g.
+colors.unshift("white");
+4.shift method
+- Removes an item at the beginning of the array
+e.g.
+colors.shift();
+5.sort method
+- Sorts the elemets of the array in alphabetical oreder
+e.g.
+colors.sort();
+6.reverse method
+- Reverses the elements of the array
+e.g.
+colors.reverse();
+7.forEach method
+- forEach method calls the elements of the array one at a time
+8.reduce method
+- Reduces the the value of the array to single value
+9.filter method
+- Filters the elements of the array that passes the condition
+10.map method
+- Maps a function once for each elements of the array
 
 
 EVENT HANDLING
