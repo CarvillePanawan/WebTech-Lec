@@ -1,5 +1,12 @@
 JAVASCRIPT - INTERACTIVE FRONT-END WEB DEVELOPMENT
-JavaScript is a high-level, web-scripting programming language that is widely used for making the websites more interactive.
+
+JavaScript is a high-level, web scripting programming language that is widely used for making we pages more interactive yb modifying and accessing the content used in the web page while it is eing viewed.
+
+How JavaScript makes Web Pages more Interactive
+Access Contents - you can select any element, attributes, ot text from an HTML web page.
+Modify Conntents - you can modify like adding elements, attributes and text to the page.
+
+Javascript Fundamentals
 DATATYPES
 1. number
   - the datatype number can be a decimal integer, decimal floating point or a decimal scientific notation
@@ -170,6 +177,12 @@ XMLHttpRequest Object
     - onreadystatechange
     
 Promise Object
-
+    - Promise Objects may produce a single value some toime in the future that can be either a resolve value or a rejected value. A promise can have 3 states mainly: fulfilled, pending, or rejected. Promises are eager, that means that a promise will start doing task you give it as soon as the promise constructor is invoked.
+    How it works:
+    If the state is fulfilled, onFulfilled() will be called (e.g. resolve())
+    If the state is rejected, onRejected() will be called (e.g. reject())
+    If the state is pending, it is notyet fulfilled or rejected
+    
+    
 
 
