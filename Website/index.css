@@ -168,3 +168,43 @@ body {
     transition: margin-top 1s ease;
     cursor: auto;
 }
+
+#start {
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 1.5em 1em 1.5em 1em;
+	font-size: 2em;
+	width: 30%;
+	text-align: center;
+	border-radius: 1px;
+	font-family: "Josefin Sans", "Century Gothic",sans-serif;
+	font-weight: bolder;
+}
+
+/*
+t-button {
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 1px;
+	color: #fff;
+  	animation: pulse 1.5s infinite;
+	cursor: pointer;
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0.3em rgba(46, 17, 45, 0.8);
+    box-shadow: 0 0 0.3em rgba(46, 17, 45, 0.8);
+  }
+  50% {
+      -moz-box-shadow: 0 0 0.2em 0.5em rgba(46, 17, 45, 0);
+      box-shadow: 0 0 0.2em 0.5em rgba(46, 17, 45, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0.3em rgba(46, 17, 45, 0);
+      box-shadow: 0 0 0.3em rgba(46, 17, 45, 0);
+  }
+}
+
+t-button:hover {
+	animation: none;
+}
+*/
