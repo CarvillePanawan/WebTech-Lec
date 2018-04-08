@@ -1,3 +1,5 @@
+JAVASCRIPT - INTERACTIVE FRONT-END WEB DEVELOPMENT
+JavaScript is a high-level, web-scripting programming language that is widely used for 
 DATATYPES
 1. number
   - the datatype number can be a decimal integer, decimal floating point or a decimal scientific notation
@@ -131,5 +133,6 @@ XMLHttpRequest Object
     - onreadystatechange
     
 Promise Object
+
 
 
