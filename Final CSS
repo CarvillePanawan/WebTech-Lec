@@ -55,13 +55,22 @@ e.g.
 	->Always starts with a type sector or a universal selector
 	->Cannot contain other type selectors or universal selectors 
   
- -Selector Group -
- 
- -Simple Selectors -
- 
- -Combinators - 
- 
- -Pseudo Elements -
+ -Selector Group - One or more selectors can be linked to the same declaration block.
+  eg.
+   h1, th {
+     //declarations
+   }
+ -Simple Selectors - Simple selectors match elements of the document with just element type, id, or class.
+ eg.
+  h1 {
+   color: red;
+  }
+ -Combinators - A combinator is utilized to specify the relationship between selectors
+  -> child selector (>)
+  -> adjacent sibling selector (+)
+  -> descendant selector (space)
+  -> general sibling selector (~)
+ -Pseudo Elements - A pseudo element can be used to style a specific part of an element
  
 >CSS Rule Precedence - Systematic order of execution of same property within the stylesheet.
  -Conflict Resolution
@@ -69,7 +78,8 @@ e.g.
   -> 2nd level - by specifity 
   -> 3rd level - later declaration is chosen
   
->CSS Declarations - 
+>CSS Declarations - A declaration is composed of a CSS property name and value which is separated by a colon. A declaration block id delimited/
+ 		    sorrounded by curly braces.
   -Properties - 
    -> shorthand property - allows other to specify the rule of several properties with a single property
    -> Vendor specific extension - used by browser as a prfis for ecperimental or non-standard CSS properties
@@ -82,7 +92,7 @@ e.g.
      - CSS-wide keywords(initial,inherit,actual)
      - propery-specific keywords
    -> Numbers - are integers or real numbers in decimal notation.
-   -> Dimensions - 
+   -> Dimensions - Used to specify height, width, angle, time, and size of an object.
     -- length, angle, duration, resolution
     -- length units
      - font-raelation : em,ex,ch,rem
@@ -99,14 +109,25 @@ e.g.
     ->Percentage - Used to denote a part from a whole
      -- number with % suffix
      ->URL and URI - Necessary to be absolute or relative (to the stylesheet)
-     ->Colors
+     ->Colors - Color is necessary to improve the design of a website, there are multiple ways of indentifying colors.
       --color keywords
-      - RGB hexadecimal notation
-      - RGB functions
-      - HSL functions
-      - current color
+       - RGB hexadecimal notation
+        eg.
+	 #ff0000
+       - RGB functions
+        eg.
+	 rgb(255, 0, 0)
+       - HSL functions
+        eg.
+	 hsl(0, 100%, 50%)
+       - current color
+        eg.
+	 blue
     ->String - it is delimnited by single quotes ' or double quotes "
-    ->Functions - 
+    ->Functions - CSS functions are used as a value for other CSS properties
+     e.g.
+      var()
+      linear-gradient()
     ->Miscellaneous
     
  >CSS Preprocessor - Generate CSS using custom languages syntax typically includes feature that dont exist in pure CSS.
