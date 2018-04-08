@@ -86,7 +86,7 @@ e.g.
    -> custom properties(CSS Variables) - property named with -- , reperesenting a value than can be reused using the var()
    
   -Values - 
-   -> Value Processing - declared > cascaded > specific > computed > used > actual
+   -> Value Processing - values are declared or cascaded of a specific variable that can be computed, used in actual terms
    -> Value types - 
     -- keywords
      - CSS-wide keywords(initial,inherit,actual)
