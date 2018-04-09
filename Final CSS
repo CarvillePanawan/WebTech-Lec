@@ -80,12 +80,12 @@ e.g.
   
 >CSS Declarations - A declaration is composed of a CSS property name and value which is separated by a colon. A declaration block id delimited/
  		    sorrounded by curly braces.
-  -Properties - 
+  -Properties - determines the setting of an element or attributes.
    -> shorthand property - allows other to specify the rule of several properties with a single property
    -> Vendor specific extension - used by browser as a prfis for ecperimental or non-standard CSS properties
    -> custom properties(CSS Variables) - property named with -- , reperesenting a value than can be reused using the var()
    
-  -Values - 
+  -Values - specifies the initial value of the element, the parameter, how much of the task has been completed and sets the value of a list.
    -> Value Processing - values are declared or cascaded of a specific variable that can be computed, used in actual terms
    -> Value types - 
     -- keywords
