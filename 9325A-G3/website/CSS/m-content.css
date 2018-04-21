@@ -1,0 +1,149 @@
+div h2 {
+	margin-bottom: 1em;
+}
+
+div p + h2 {
+	margin-top: 1em;
+}
+
+div p {
+	text-indent: 1em;
+}
+
+ul {
+	margin-left: 2em;
+}
+
+sc {
+	color: red;
+	font-weight: bolder;
+}
+
+au {
+	color: green;
+	font-weight: bolder;
+}
+
+pa {
+	color: blue;
+	font-weight: bolder;
+}
+
+qu {
+	color: darkred;
+	font-weight: bolder;
+}
+
+pn {
+	color: darkgreen;
+	font-weight: bolder;
+}
+
+fi {
+	color: darkblue;
+	font-weight: bolder;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table,
+td {
+    border: 1px solid black;
+}
+
+td {
+    padding: 0.5em;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.s-code {
+	width: 50px
+}
+
+.s-desc {
+	width: 100%;
+}
+
+.left-right {
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 1em;
+}
+
+#t6 h2,
+#t7 h2 {
+	margin: 2em 0 1em 0;
+}
+
+#t7 h3 {
+	margin: 1em 0 1em;
+}
+
+#t3 h2 {
+	margin: 10px 0 0 0;
+}
+
+.i {
+	text-indent: 2em;
+	font-family: monospace;
+	color: inherit;
+}
+
+.j {
+	text-indent: 3em;
+	font-family: monospace;
+	color: inherit;
+}
+
+.k {
+	text-indent: 4em;
+	font-family: monospace;
+	color: inherit;
+}
+
+.l {
+	text-indent: 5em;
+	font-family: monospace;
+	color: inherit;
+}
+
+.code-block {
+	background-color: rgba(0, 0, 0, 0.8);
+	color: #fff;
+	font-family: monospace;
+	padding: 1em 0 1em 0;
+}
+
+.code-block .i {
+	text-indent: 2em;
+}
+
+.code-block .j {
+	text-indent: 3em;
+}
+
+.code-block .k {
+	text-indent: 4em;
+}
+
+.code-block .l {
+	text-indent: 5em;
+}
+
+cs {
+	background-color: rgba(0, 0, 0, 0.8);
+	color: #fff;
+	font-family: monospace;
+	height: auto;
+	width: auto;
+}
+
+.no-indent {
+	text-indent: 0;
+}

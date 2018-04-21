@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Century Gothic", sans-serif;
+    padding: 100vh 0 0 0;
+}
+
+#top-text {
+    width: 100%;
+    height: 25vh;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#top-text h1 {
+    text-align: center;
+    width: 50%;
+    margin: 1% 0 0 25%;
+    border-bottom: solid 2px #222;
+}
+
+#top-text p {
+    text-indent: 1em;
+    width: 50%;
+    margin: 1% 0 0 25%;
+}
+
+#bottom-text {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#bottom-text h1 {
+    font-size: 1.5em;
+    border-bottom: solid 2px #222;
+    width: 50%;
+}
+
+#bottom-text ul {
+    padding: 3% 0 0 0;
+}
+
+#bottom-text ul li {
+    list-style: none;
+    text-align: center;
+    font-size: 0.89em;
+    text-align: left;
+}
+
+
+#leftb {
+    padding: 3% 0 0 3%;
+    float: left;
+    width: 33%;
+    height: 100%;
+    display: block;
+    top: 100%;
+}
+
+#middleb {
+    padding: 3% 0 0 3%;
+    float: left;
+    width: 33.1%;
+    height: 100%;
+    display: block;
+    top: 100%;
+}
+
+#rightb {
+    padding: 3% 0 0 3%;
+    float: right;
+    width: 33%;
+    height: 100%;
+    display: block;
+    top: 100%;
+}
+
+#left {
+    float: left;
+    width: 33%;
+    height: 50vh;
+    display: block;
+    top: 100%;
+    border: black solid 2px;
+    background-color: #fff;
+    background-image: url("./IMAGES/html.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    cursor: pointer;
+}
+
+#middle {
+    float: left;
+    width: 33.1%;
+    height: 50vh;
+    display: block;
+    top: 100%;
+    border: black solid 2px;
+    background-color: #fff;
+    background-image: url("./IMAGES/css.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    cursor: pointer;
+}
+
+#right {
+    float: right;
+    width: 33%;
+    height: 50vh;
+    display: block;
+    top: 100%;
+    border: black solid 2px;
+    background-color: #fff;
+    background-image: url("./IMAGES/js.png");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    cursor: pointer;
+}
+
+#left:hover #top,
+#middle:hover #top,
+#right:hover #top {
+    margin-top: -38%;
+}
+
+#left:hover > #bottom,
+#middle:hover > #bottom,
+#right:hover > #bottom {
+    margin-top: 76%;
+}
+
+#top {
+    background-color: rgba(0,0,0,0.5);
+    height: 25vh;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+    line-height: 40vh;
+    -webkit-transition: margin-top 1s ease;
+    -moz-transition: margin-top 1s ease;
+    -ms-transition: margin-top 1s ease;
+    -o-transition: margin-top 1s ease;
+    transition: margin-top 1s ease;
+    cursor: auto;
+}
+
+#bottom {
+    background-color: rgba(0,0,0,0.5);
+    height: 25vh;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+    -webkit-transition: margin-top 1s ease;
+    -moz-transition: margin-top 1s ease;
+    -ms-transition: margin-top 1s ease;
+    -o-transition: margin-top 1s ease;
+    transition: margin-top 1s ease;
+    cursor: auto;
+}
+
+#start {
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 1.5em 1em 1.5em 1em;
+	font-size: 2em;
+	width: 30%;
+	text-align: center;
+	border-radius: 1px;
+	font-family: "Josefin Sans", "Century Gothic",sans-serif;
+	font-weight: bolder;
+}
+
+/*
+t-button {
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 1px;
+	color: #fff;
+  	animation: pulse 1.5s infinite;
+	cursor: pointer;
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0.3em rgba(46, 17, 45, 0.8);
+    box-shadow: 0 0 0.3em rgba(46, 17, 45, 0.8);
+  }
+  50% {
+      -moz-box-shadow: 0 0 0.2em 0.5em rgba(46, 17, 45, 0);
+      box-shadow: 0 0 0.2em 0.5em rgba(46, 17, 45, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0.3em rgba(46, 17, 45, 0);
+      box-shadow: 0 0 0.3em rgba(46, 17, 45, 0);
+  }
+}
+
+t-button:hover {
+	animation: none;
+}
+*/

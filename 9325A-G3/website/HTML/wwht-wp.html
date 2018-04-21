@@ -1,0 +1,421 @@
+<!Doctypr HTML>
+
+<html>
+    <head>
+        <title>WWW&amp;HTTP</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../CSS/base-cntl.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/base.css">
+		<link rel="stylesheet" type="text/css" href="../CSS/m-content.css">
+		<link rel="stylesheet" type="text/css" href="../CSS/base-docu.css">
+        <script src="../JAVASCRIPT/html-wp.js" async></script>
+    </head>
+    
+    <body>
+        <div id="header">
+            <div id="title"></div>
+            
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a>About Us</a></li>
+            </ul>
+        </div>
+        
+        <div id="content">
+			<div id="p-banner"></div>
+			<div id="p-space"></div>
+			
+			<div id="container">
+				<div id="p-span"></div>
+				<div class="tab">
+					<button class="tablinks" onclick="openTab(event, 't1')">WWW</button>
+					<button class="tablinks sub" onclick="openTab(event, 't2')">Universal Resource (L|I|N)</button>
+					<button class="tablinks" onclick="openTab(event, 't3')">HTTP</button>
+					<button class="tablinks" onclick="openTab(event, 't4')">Request Message</button>
+					<button class="tablinks" onclick="openTab(event, 't5')">Request Methods</button>
+					<button class="tablinks sub" onclick="openTab(event, 't6')">Method Properties</button>
+					<button class="tablinks sub" onclick="openTab(event, 't7')">Status Codes</button>
+					<button class="tablinks" onclick="openTab(event, 't8')">References</button>
+				</div>
+				
+				<div id="t1" class="tabcontent">
+					<h1>The World Wide Web</h1>
+					<p>The World Wide Web or WWW is a collection of web resources, digital repository or storage of data, and applications which allows access of the web resources through the internet. The WWW was invented by Sir Tim Bernes-Lee back in March 1989, its initial purpose was to provide a way for researchers to share and information within a wide range.</p>
+					
+					<h2>Types of Web Resources</h2>
+					<ul>
+						<li><h3>Static</h3></li>
+						<p>Static resources are reources that are exaclty stored and do not require web programming and database design.</p>
+						<li><h3>Dynamic</h3></li>
+						<p>Dynamic resoursec are resources that are generated, usually Client-side-scripting, server-side scripting, or both are used</p>
+					</ul>
+					<br><br>
+					
+					<h2>Types of Applications</h2>
+					<ul>
+						<li><h3>Client Application</h3></li>
+						<p>An application that can acquire or secure the services of other programs usually server appplications.</p>
+						<li><h3>Server Application</h3></li>
+						<p>An application that waits for requests from other applications, whether client or server application, and sends back a response accordingly</p>
+					</ul>
+				</div>
+
+				<div id="t2" class="tabcontent">
+					<h1>Universal Resource (L|I|N)</h1>
+					<p>Different web pages are stored or kept in web servers around the world and upon clicking a link or inputing an URL/URI/URN of a webpage triggers a request for the web page from the web server, the server then transmits back a response containing the web page data that your web browser displays.</p>
+					
+					<h2>Universal Resoure Identifier</h2>
+					<p>A means of identifying any kind of web resource whether it be text, image and etc. It divides into two types, namely URL and URN.</p>
+					<br><br>
+					
+					<h2>Universal Resoure Locator</h2>
+					<p>Indicates where a web resource is located in the internet. Another way of describing an URL is that it is a reference to a web resource stored in the internet.</p>
+					
+					<h3>Parts: </h3>
+					<p><sc>scheme </sc>://<au>authority(deprecated) </au>/<pa>path </pa>:<pn>port number </pn>/<qu>query </qu>/<fi>fragment identifier(optional) </fi></p>
+					<p>(i.e. <sc>https</sc>://<au>www.google.com.ph</au><pa>/database</pa>:<pn>8080</pn>/<qu>search?q=test</qu><fi>#first</fi>)</p>
+					<br><br>
+					
+					<h2>Universal Resoure Name</h2>
+					<p>The URN is a resource reference that is similar to the URL but instead of the location of the resource, a specific name is assigned to the resource making it easy for a person or program to find the resource. The URN is also a type of a URI.</p>
+				</div>
+				
+				<div id="t3" class="tabcontent">
+					<h1>Hyper Text Transfer Protocol</h1>
+					<p>HTTP is an application layer communication protocol that is used to access resources(hypertext/hypermedia) from the World Wide Web. Invented by Tim Berners Lee at CERN(Conseil Européen pour la Recherche Nucléaire) in 1989 together with W3C(World Wide Web Consortium) and IETF(Internet Engineering Task Force).</p>
+					<br><br>
+					
+					<h2>Versions</h2>
+					<ul>
+						<li>HTTP 0.9: (1991)-(TCP/IP connection using port 80; "GET"; only html)</li>
+						<li>HTTP 1.0: (RFC(Remote Function Call) 1945, May 1996)-(pull protocol; always initiated by client)</li>
+						<li>HTTP 1.1: (RFC 2068 January 1997, RFC 2616 June 1999); RFC 7230-7235 June 2014</li>
+						<li>HTTP 2.0: (RFC 7540 May 2015)-(pipelining introduced; multiplexing; server push - server taking initiative)</li>
+					</ul>
+					<br><br>
+					
+					<h2>Fundamentals</h2>
+					<p>HTTP runs on top of TCP(Transmission Control Protocol/IP(Internet Protocol) with the use of TCP port 80 by default or TCP port 443 for HTTPS(Secure HTTP)</p>
+					<ul>
+						<li>HTTP is based on a client-server architecture</li>
+						<li>HTTP uses a request-response standard protocol</li>
+						<li>HTTP is a stateless communications protocol</li>
+						<li>HTTP Functionalities: cache control, content media type specification, content/transfer coding, content negotiation, client-server protocol negotiations, persistent connections, request pipelining/ multiplexing (HTTP2) and authorization/authentication</li>
+					</ul>
+				</div>
+				
+				<div id="t4" class="tabcontent">
+					<h1>Request Message</h1>
+					<p>When a client interacts with a server it sends out a <b>request message</b>, this <b>request message</b> contains various components and they are formatted as demonstrated below.</p>
+					<br>
+					<ul style="list-style: none;">
+						<li>
+							Request line (CRLF - terminated line consisting of three space separated values)
+							<ul style="list-style: none;">
+								<li>Method</li>
+								<li>Request Target</li>
+								<li>Protocol Version</li>
+							</ul>
+						</li>
+						<li>Message Header</li>
+						<li>Empty Line</li>
+						<li>Pay Load</li>
+					</ul>
+					<br><br>
+					
+					<h2>Message Header</h2>
+					<ul>
+						<li>General Header Fields: entity header fields</li>
+						<li>Request Header Fields: specific information about the resource to be retrieved</li>
+						<li>Response Header Fields: additional information about the response</li>
+						<li>Entity Header Fields(Payload): information about the body of the entity</li>
+					</ul>
+				</div>
+				
+				<div id="t5" class="tabcontent">
+					<h1>Request Methods</h1>
+					<p>Request methods are a way to indicate what type of interaction the client would do to a requested resource or resources. Below are the standard request methods of HTTP.</p>
+					<br>
+					<ul class="left smaller">
+						<li>GET
+							<ul>
+								<li>transfer a current selected representation of the target resource.</li>
+							</ul>
+						</li>
+						<li>HEAD
+							<ul>
+								<li>retrieves the status line and/or headers, similar to <b>GET</b> but without the payload.</li>
+							</ul>
+						</li>
+						<li>POST
+							<ul>
+								<li>request that the target resource perform resource-specific processing of the representation enclosed in the message body of the request. Typically used in submitting HTML form data.</li>
+							</ul>
+						</li>
+						<li>PUT
+							<ul>
+								<li>create or replace the state of the target resource with the state defined by the representation enclosed.</li>
+
+							</ul>
+						</li>
+						<li>DELETE
+							<ul>
+								<li>removes the association between the target resource and its current functionality.</li>
+							</ul>
+						</li>
+						<li>OPTIONS
+							<ul>
+								<li>request information about the communication options available for the target resource.</li>
+								<li>the request target may be "*".</li>
+							</ul>
+						</li>
+						<li>TRACE
+							<ul>
+								<li>request remote, application level loopback of the request message(request the recipient echo back to the client received request message).</li>
+							</ul>
+						</li>
+						<li>CONNECT
+							<ul>
+								<li>request establishment of a tunnel to the destination origin server and if succesful thereafter restricts its behavior to blind-formating of products in both direction.</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				
+				<div id="t6" class="tabcontent">
+					<h1>Method Properties</h1>
+					<h2>Safe Methods</h2>
+					<p>Methods that can only perfom "read-only" procedures.</p>
+					<p>e.g. GET, HEAD, TRACE and OPTIONS</p>
+					<br><br>
+					
+					<h2>Idempotent Methods</h2>
+					<p>Methods that are read-only or not and can only be effective once.</p>
+					<p>e.g. GET, HEAD, TRACE, OPTIONS, PUT and DELETE</p>
+					<br><br>
+					
+					<h2>Cacheable Methods</h2>
+					<p>Methods that allows to be stored for future reference.</p>
+					<p>e.g. GET, HEAD and POST</p>
+				</div>
+				
+				<div id="t7" class="tabcontent">
+					<h1>Status Codes</h1>
+					<div class="s-tab">
+						<button class="s-tablinks" onclick="sOpenTab(event, 'st1')">Information</button>
+						<button class="s-tablinks" onclick="sOpenTab(event, 'st2')">Success</button>
+						<button class="s-tablinks" onclick="sOpenTab(event, 'st3')">Redirect</button>
+						<button class="s-tablinks" onclick="sOpenTab(event, 'st4')">Client Error</button>
+						<button class="s-tablinks" onclick="sOpenTab(event, 'st5')">Server Error</button>
+					</div>
+					
+					<div id="st1" class="s-tabcontent">
+						<table>
+							<tr>
+								<td class="s-code">100</td>
+								<td class="s-desc">Continue</td>
+							</tr>
+							<tr>
+								<td class="s-code">101</td>
+								<td>Swicthing Protocols</td>
+							</tr>
+						</table>
+					</div>
+					
+					<div id="st2" class="s-tabcontent">
+						<table>
+							<tr>
+								<td class="s-code">200</td>
+								<td class="s-desc">OK</td>
+							</tr>
+							<tr>
+								<td class="s-code">201</td>
+								<td>Created</td>
+							</tr>
+							<tr>
+								<td class="s-code">202</td>
+								<td>Accepted</td>
+							</tr>
+							<tr>
+								<td class="s-code">203</td>
+								<td>Non-Authoritative Information</td>
+							</tr>
+							<tr>
+								<td class="s-code">204</td>
+								<td>No Content</td>
+							</tr>
+							<tr>
+								<td class="s-code">205</td>
+								<td>Reset Content</td>
+							</tr>
+							<tr>
+								<td class="s-code">206</td>
+								<td>Partial Content</td>
+							</tr>
+						</table>
+					</div>
+					
+					<div id="st3" class="s-tabcontent">
+						<table>
+							<tr>
+								<td class="s-code">300</td>
+								<td class="s-desc">Multiple Choices</td>
+							</tr>
+							<tr>
+								<td class="s-code">301</td>
+								<td>Moved Permanently</td>
+							</tr>
+							<tr>
+								<td class="s-code">302</td>
+								<td>Found</td>
+							</tr>
+							<tr>
+								<td class="s-code">303</td>
+								<td>See Other</td>
+							</tr>
+							<tr>
+								<td class="s-code">304</td>
+								<td>Not Modified</td>
+							</tr>
+							<tr>
+								<td class="s-code">305</td>
+								<td>Use Proxy</td>
+							</tr>
+							<tr>
+								<td class="s-code">306</td>
+								<td>Unused and Reserved</td>
+							</tr>
+							<tr>
+								<td class="s-code">307</td>
+								<td>Temporary Redirect</td>
+							</tr>
+						</table>
+					</div>
+					
+					<div id="st4" class="s-tabcontent">
+						<div class="left-right">
+							<div>
+								<table>
+									<tr>
+										<td class="s-code">400</td>
+										<td class="s-desc">Bad Request</td>
+									</tr>
+									<tr>
+										<td class="s-code">401</td>
+										<td>Unauthorized</td>
+									</tr>
+									<tr>
+										<td class="s-code">402</td>
+										<td>Payment Required</td>
+									</tr>
+									<tr>
+										<td class="s-code">403</td>
+										<td>Forbidden</td>
+									</tr>
+									<tr>
+										<td class="s-code">404</td>
+										<td>Not Found</td>
+									</tr>
+									<tr>
+										<td class="s-code">405</td>
+										<td>Method Not Allowed</td>
+									</tr>
+									<tr>
+										<td class="s-code">406</td>
+										<td>Not Acceptable</td>
+									</tr>
+									<tr>
+										<td class="s-code">407</td>
+										<td>Proxy Authentication</td>
+									</tr>
+									<tr>
+										<td class="s-code">408</td>
+										<td>Request Timeout</td>
+									</tr>
+									<tr>
+										<td class="s-code">409</td>
+										<td>Conflict</td>
+									</tr>
+								</table>
+							</div>
+							<div>
+								<table>
+								<tr>
+									<td class="s-code">410</td>
+									<td class="s-desc">Gone</td>
+								</tr>
+								<tr>
+									<td class="s-code">411</td>
+									<td>Length Required</td>
+								</tr>
+								<tr>
+									<td class="s-code">412</td>
+									<td>Precondition Failed</td>
+								</tr>
+								<tr>
+									<td class="s-code">413</td>
+									<td>Request Entity Too Large</td>
+								</tr>
+								<tr>
+									<td class="s-code">414</td>
+									<td>Request URI Too Long</td>
+								</tr>
+								<tr>
+									<td class="s-code">415</td>
+									<td>Unsupported Media Type</td>
+								</tr>
+								<tr>
+									<td class="s-code">416</td>
+									<td>Requested Range Not Satisfied</td>
+								</tr>
+								<tr>
+									<td class="s-code">417</td>
+									<td>Expectation Failed</td>
+								</tr>
+								</table>
+							</div>
+						</div>
+					</div>
+					
+					<div id="st5" class="s-tabcontent">
+						<table>
+							<tr>
+								<td>500</td>
+								<td class="s-desc">Internal Server Error</td>
+							</tr>
+							<tr>
+								<td>501</td>
+								<td>Not Implemented</td>
+							</tr>
+							<tr>
+								<td>502</td>
+								<td>Bad Gateway</td>
+							</tr>
+							<tr>
+								<td>503</td>
+								<td>Service Unavailable</td>
+							</tr>
+							<tr>
+								<td>504</td>
+								<td>Gateway Timeout</td>
+							</tr>
+							<tr>
+								<td>505</td>
+								<td>HTTP Version Not Supported</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+			
+				<div id="t8" class="tabcontent references">
+					<p>HTTP Headers. (n.d). Retrieved from https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers</p><br>
+				</div>
+				
+				<div id="helper"></div>
+        		<div id="footer">
+					Saint Louis University &copy; 2018
+        		</div>
+			</div>
+		</div>
+    </body>
+</html>

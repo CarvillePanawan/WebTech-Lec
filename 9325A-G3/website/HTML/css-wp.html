@@ -1,0 +1,243 @@
+<!Doctypr HTML>
+
+<html>
+    <head>
+        <title>CSS</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../CSS/base.css">
+		<link rel="stylesheet" type="text/css" href="../CSS/base-docu.css">
+		<link rel="stylesheet" type="text/css" href="../CSS/base-cntl.css">
+		<link rel="stylesheet" type="text/css" href="../CSS/m-content.css">
+        <script src="../JAVASCRIPT/html-wp.js" async></script>
+    </head>
+    
+    <body>
+        <div id="header">
+            <div id="title"></div>
+            
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a>About Us</a></li>
+            </ul>
+        </div>
+        
+        <div id="content">
+			<div id="p-banner"></div>
+			<div id="p-space"></div>
+			
+			<div id="container">
+				<div id="p-span"></div>
+				<div class="tab">
+					<button class="tablinks" onclick="openTab(event, 't1')">Introduction</button>
+					<button class="tablinks" onclick="openTab(event, 't2')">Stylesheets</button>
+					<button class="tablinks sub" onclick="openTab(event, 't2-a')">Examples</button>
+					<button class="tablinks" onclick="openTab(event, 't3')">Selectors &amp; Statements</button>
+					<button class="tablinks sub" onclick="openTab(event, 't6')">Simple Selectors</button>
+					<button class="tablinks" onclick="openTab(event, 't7')">Rule Precedence &amp; Declarations</button>
+					<button class="tablinks sub" onclick="openTab(event, 't10')">Values</button>
+					<button class="tablinks" onclick="openTab(event, 't11')">Other Topics</button>
+					<button class="tablinks" onclick="openTab(event, 't12')">References</button>
+				</div>
+				
+				<div id="t1" class="tabcontent">
+					<h1>Introduction</h1>
+					<p>CSS is a style sheet language used to specify the presentation aspects (e.g. layout and formatting) of structurally marked up documents. CSS was created by Hakom Wicum Lie and Bert Bos which started in 1994 at CERN.</p>
+					
+					<h2>Versions</h2>
+					<ul>
+						<li>CSS level 1 (CSS 1) was released in 1996 where it mostly dealt with text alterations.</li>
+						<li>CSS Level 2 (CSS 2) was officially published in 1998 by W3C where page layout editing was added.</li>
+						<li>CSS Level 2 Revision (CSS, W3C Recommendation, June 2011 )</li>
+						<li>CSS level 3 (CSS 3) drafts appeared in 1999 pertaining to a modular approach to CSS development.</li>
+					</ul>
+				</div>
+				
+				<div id="t2" class="tabcontent">
+					<h1>Stylesheets</h1>
+					
+					<h2>Author Styles</h2>
+					<p>Front-end developer who designed/styled the page.</p><br>
+					
+					<h3>External</h3> 
+					<p>External style uses a css file to describe the elements of multiple HTML page. external style is added in the HTML by adding a link inside the <cs>&lt;head&gt;</cs>.</p>
+					<h3>Embedded</h3>
+					<p>Embedded style is used to describe the elements of a single HTML page. The description is added in the <cs>&lt;head&gt;</cs> within the <cs>&lt;style&gt;</cs></p><h3>Inline</h3>
+					<p>Inline style describe a specific element of HTML. Inline is used to describe the element, the style attribute that is used.</p>
+					
+					<h2>User Styles</h2>
+					<p>The end user who will be utilizing the webpage may change the the default style information for a particular document.</p>
+					
+					<h2>User Agent Styles</h2>
+					<p>User agents are browser such as firefox and chrome wherein they have their own default stylesheet.</p>
+				</div>
+				
+				<div id="t2-a" class="tabcontent">
+					<h1>Examples</h1>
+					
+					<h3>External</h3>
+					&nbsp;
+					<div class="code-block">
+						<div class="i">&lt;head&gt;</div>
+						<div class="j">&lt;link rel="stylesheet" href="stylesheet.css"&gt;</div>
+						<div class="i">&lt;/head&gt;</div>
+					</div>
+					&nbsp;
+					
+					<h3>Embedded</h3>
+					&nbsp;
+					<div class="code-block">
+						<div class="i">&lt;head&gt;</div>
+						<div class="j">&lt;style&gt;</div>
+							<div class="k">body {</div>
+								<div class="l">background-color: blue;</div>
+							<div class="k">}</div>
+						<div class="j">&lt;/style&gt;</div>
+						<div class="i">&lt;/head&gt;</div>
+					</div>
+					&nbsp;
+					
+					<h3>Inline</h3>
+					&nbsp;
+					<div class="code-block">
+						<div class="i">&lt;p style="color: white"&gt;</div>
+						<div class="j">Example</div>
+						<div class="i">&lt;p&gt;</div>
+					</div>
+					&nbsp;
+				</div>
+				
+				<div id="t3" class="tabcontent">
+					<h1>Selectors &amp; Statements</h1>
+					<h2>Selectors</h2>
+					<p>CSS selector is used to select a specific element or group of element based by their class,name,id, etc.</p>
+					<h2>Selector Syntax</h2>
+					<p>Chain of one or more sequences of simple selectors separated by combinators, with one pseudo-element possibly appended to the last sequence(eg. <cs>div #abc &lt; p.xyz [title] + span: first_child::after</cs>).</p>
+					
+					<h2>Subtopics</h2>
+					<ul>
+						<li>Combinators: A combinator is utilized to specify the relationship between selectors.
+						<ul>
+							<li>child selector (  <cs>&gt;</cs>  )</li>
+							<li>adjacent sibling selector (  <cs>+</cs>  )</li>
+							<li>descendant selector (  <cs>"space"</cs>  )</li>
+							<li>general sibling selector (  <cs>~</cs>  )</li>
+						</ul>
+						</li>
+						<li>Pseudo-elements: A pseudo element can be used to style a specific part of an element.
+						<ul>
+							<li><cs>::after</cs></li>
+							<li><cs>::before</cs></li>
+						</ul>
+						</li>
+						<li>Simple Selectors</li>
+					</ul>
+					
+					<h2>Statements</h2>
+					<ul>
+						<li>charset: specifies the character encoding used in the style sheet.</li>
+						<li>font-face: allows the user to display a font on a web page even if the font is not installed on the users' computer.</li>
+						<li>keyframes: specifies the animation for each transition; transition could be in percentage or in seconds.</li>
+						<li>media: can be used to apply styles based on the result of one or more media queries, which test a device's type, specific characteristics, and environment.</li>
+					</ul>
+				</div>
+				
+				<div id="t6" class="tabcontent">
+					<h1>Simple Selectors</h1>
+					<h2>Sequence</h2>
+					<p>Chain of simple selectors not separated by combinators.</p>
+					<ul>
+						<li>Always starts with a type sector or a universal selector.</li>
+						<li>Cannot contain other type selectors or universal selectors .</li>
+					</ul>
+					
+					<h2>Selector Group</h2>
+					<div class="code-block">
+						<div class="i">h1, th {</div>
+						<div class="j">color: red;</div>
+						<div class="i">}</div>
+					</div>
+					
+					<h2>Simple Selectors</h2>
+					<div class="code-block">
+						<div class="i">h1 {</div>
+						<div class="j">color: red;</div>
+						<div class="i">}</div>
+					</div>
+				</div>
+				
+				<div id="t7" class="tabcontent">
+					<h1>Rule Precedence</h1>
+					<p>Determines the systematic order of execution of same property within the stylesheet.</p>
+					
+					<h2>Conflict Resolutions</h2>
+					<ul>
+						<li>1st level: by origin and importance </li>
+						<li>2nd level: by specificity </li>
+						<li>3rd level: later declaration is chosen</li>
+					</ul>
+					
+					<h2>Declarations</h2>
+					<p>A declaration is composed of a CSS property name and value which is separated by a colon. A declaration block id delimited/sorrounded by curly braces.</p>
+					
+					<h3>Properties</h3>
+					<ul>
+						<li>shorthand property: allows other to specify the rule of several properties with a single property.</li>
+						<li>vendor specific extension: used by browser as a prfis for ecperimental or non-standard CSS properties.</li>
+						<li>custom properties: property named with -- , reperesenting a value than can be reused using the var()</li>
+					</ul>
+				</div>
+				
+				<div id="t10" class="tabcontent">
+					<h1>Values</h1><br>
+					<h2>Types</h2>
+					<ul>
+						<li>keywords</li>
+						<li>CSS-wide keywords</li>
+						<li>property-specific keywords</li>
+					</ul><br>
+					
+					<h2>Data</h2>
+					<ul>
+						<li>Numbers: integers or real numbers in decimal notation.</li>
+						<li>Dimensions: used to specify height, width, angle, time, and size of an object(eg. <cs>em</cs> , <cs>vw</cs> , <cs>vwcm</cs>).</li>
+						<li>Angle Units: can be utilized in some gradient and transform functions and used in animation,transistion, and related properties.(eg. <cs>deg</cs>, <cs>grad</cs>, <cs>turn</cs>)</li>
+						<li>Duration: for time(eg. <cs>s </cs>or<cs> ms</cs>)</li>
+						<li>Frequency Units: initially introduced in CSS2 for the avrol media type, reintroduced in CSS3 but is currently unused.(eg. <cs>Hz</cs> and <cs>kHz</cs></li>
+						<li>Resolution: used in media queries(eg. <cs>dpi</cs>, <cs>dpcm</cs>, <cs>dppx</cs>).</li>
+						<li>Percentage: used to denote a part from a whole, it is any number with the '<cs>%</cs>' suffix</li>
+						<li>URL and URI: necessary to be absolute or relative (to the stylesheet)</li>
+						<li>Colors: multiple ways of indentifying colors; by Hex,RGB functions, HSL functions or default, the ff. are examples of each respectively <cs>#fff</cs>, <cs>rgb(255,255,255)</cs>, <cs>hsl(100%, 100%, 100%)</cs>, <cs>white</cs></li>
+						<li>String: delimnited by single quotes ' or double quotes "</li>
+						<li>Functions: CSS functions are used as a value for other CSS properties</li>
+					</ul>
+					
+				</div>
+				
+				<div id="t11" class="tabcontent">
+					<h1>Other Topics</h1>
+					<h3>Preprocessors</h3>
+					<p>Generate CSS using custom languages syntax typically includes feature that dont exist in pure CSS.</p><br>
+					
+					<h3>Frameworks</h3>
+					<p>Provides predertimed CSS design functionality that can be revised, extended, and customized.</p><br>
+					
+					<h3>Polyfill</h3>
+					<p>Provides features that developers expect browsers to provide natively.</p>
+				</div>
+				
+				<div id="t12" class="tabcontent references">
+					<h1>References</h1>
+						<p>CSS @charset Rule. (n.d.). Retrieved from https://www.w3schools.com/cssref/pr_charset_rule.asp</p><br>
+						<p>CSS @keyfram Rule. (n.d.). Retrieved from https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp</p><br>
+						<p>Tjobbe, A. (n.d.). Implementing @font-face. Retrieved from http://www.miltonbayer.com/font-face/</p><br>
+						<p></p>
+				</div>
+				
+				<div id="helper"></div>
+        		<div id="footer">
+					Saint Louis University &copy; 2018
+        		</div>
+			</div>
+		</div>
+    </body>
+</html>

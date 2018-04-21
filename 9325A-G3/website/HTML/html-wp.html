@@ -1,0 +1,155 @@
+<!Doctypr HTML>
+
+<html>
+    <head>
+        <title>HTML</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../CSS/base-cntl.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/base.css">
+		<link rel="stylesheet" type="text/css" href="../CSS/m-content.css">
+		<link rel="stylesheet" type="text/css" href="../CSS/base-docu.css">
+        <script src="../JAVASCRIPT/html-wp.js" async></script>
+    </head>
+    
+    <body>
+        <div id="header">
+            <div id="title"></div>
+            
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a>About Us</a></li>
+            </ul>
+        </div>
+        
+        <div id="content">
+			<div id="p-banner"></div>
+			<div id="p-space"></div>
+			
+			<div id="container">
+				<div id="p-span"></div>
+				<div class="tab">
+					<button class="tablinks" onclick="openTab(event, 't1')">Introduction</button>
+					<button class="tablinks sub" onclick="openTab(event, 't2')">Document Structure</button>
+					<button class="tablinks sub" onclick="openTab(event, 't3')">Attributes</button>
+					<button class="tablinks sub" onclick="openTab(event, 't4')">Other Concepts</button>
+					<button class="tablinks" onclick="openTab(event, 't5')">References</button>
+				</div>
+				
+				<div id="t1" class="tabcontent">
+					<h1>Hyper Text Markup Language</h1>
+					<p>The Hyper Text Markup Lanuage or HTML is a markup language that is used in order to create websites or web applications. HTML is used to define the web page content and its layout. HTML was created along with the WWWtogether which was based on Standard Generalized Markup Lanugage or SGML as its publishing language.</p>
+					
+					<h2>XHTML</h2>
+					<p>XHTML was based on HTML 4.0 that follows the Extensible Markup Lanugage (XML) rules which means XHTML can create cerain set of rules of any kind of data that can be used for describing or creating the web page layout.</p>
+					
+					<h2>HTML 4.0 vs HTML 5 vs XHTML</h2>
+					<p>HTML 4 is the oldest version of HTML that is still used. HTML 4 has a loose syntax since having a closing tag was optional. HTML 4 is great for new developers since it is very easy to use and its very easy to adapt. HTML 4 has a disadvantage since loose syntax isnt great if you want to have an specific outcome for different browsers. XHTML was created to fix the problem of HTML 4, which was having a loose syntax. In XHTML all opening tags must have a closing tags. Since XHTML is more restricted, it wont allow you to have mistakes.</p>
+					<p>HTML 5 is a new version of HTML which is still developing. HTML 5 is becoming more popular these days because of its new features. HTML 5 has also a loose syntax but it isnt a problem now since some programs that is used to create HTML auto generates a closing tags. HTML 5 still uses some of the best features of HTML 4 but it also have some new tags. One of the popular feature of HTML 5 is that you can embed videos directly without the use of plugins.</p>
+				</div>
+				
+				<div id="t2" class="tabcontent">
+					<h1>Document Structure</h1>
+					<p>HTML 4 needs to be started by a <cs>&lt;html&gt;</cs> tag and needs to end with <cs>&lt;/html&gt;</cs> tag. All other elements should appear inside <cs>&lt;html&gt;</cs> and <cs>&lt;/html&gt;</cs>. The head element is the one that appears first after the <cs>&lt;html&gt;</cs> tag. Inside the head, the elements title, meta data, and script is placed together with the link of external css and some other resources that is needed. The contents of the web pages is placed inside the body elemnt. All of these are the basic structure of HTML document structure, since the HTML 5 has support from modern browsers, it is more ideal to use the new elemts to make the web pages structure more creative.</p>
+					
+					<h2>Elements vs Tags</h2>
+					<ul>
+						<li>Elements are composed of a start tag(i.e <cs>&lt;p&gt;</cs>) a content and a closing tag(i.e. <cs>&lt;/p&gt;</cs>), the following is an example: <cs>&lt;p&gt; example &lt;/p&gt;</cs>.</li>
+						<li>Tags are composed of a two angle brackets and in the middle of those two angle brackets is an element name with or without attributes.</li>
+					</ul>
+				</div>
+				
+				<div id="t3" class="tabcontent">
+					<h1>Attributes</h1>
+					<p>Attributes in HTML provides extra information about an element for example the href attribute. The <cs>&lt;a&gt;</cs> tags defines the HTML links and the address of the link is defined by <cs>href</cs>(i.e. <cs>&lt;a href = “www.example.com” &gt;</cs>) Link to www.example.com<a/>.</p>
+					<p>Examples:</p>
+					<ul>
+						<li>
+							<cs>alt</cs>: When the image can't be displayed, it specifies a replacement text for an image.
+						</li>
+						<li>
+							<cs>disabled</cs>: Specify an input element to be disabled
+						</li>
+						<li>
+							<cs>href</cs>: Defines the web address for a link
+						</li>
+						<li>
+							<cs>src</cs>: Defines the web address for an image
+						</li>
+					</ul>
+					<br>
+					
+					<h2>Global Attributes</h2>
+					<p>Global attributes are attributes that are common to all elements in HTML, which means they can be used by all other elements.</p>
+					<p>Examples:</p>
+					<ul>
+						<li><cs>accesskey</cs>: Specify a key to activate a certain element</li>
+						<li><cs>class</cs>: Lists of classification names which an elemnt belongs</li>
+						<li><cs>contenteditable</cs>: Specify if a content of an element is editable</li>
+						<li><cs>contextmenu</cs>: Specifies the context menu of a certain element</li>
+						<li><cs>tabindex</cs>: Specifies if an element is focusable and its order the sequence of focusable elements</li>
+						<li><cs>draggable</cs>: Specify if an element is draggable</li>
+						<li><cs>hidden</cs>: Specify if an element is no longer relevant</li>
+					</ul>
+					<br>
+					
+					<h2>Custom Non-Visible Data Attributes</h2>
+					<p>Custom nonvisible data attributes are attributes whose name starts with <cs>data-</cs> for the purpose of storing custom data to the web page or web application.</p>
+				</div>
+				
+				<div id="t4" class="tabcontent">
+					<h1>Other Concepts</h1>
+					
+					<div class="left-right">
+						<div>
+							<h2>MATH ML, SVG</h2>
+						<p>Mathematical Markup Language (MathML) purpose is to facilitate the use of mathematical content on the web page or the web applications. Scalable Vector Graphics are used to define vector graphics on the web in XHTML format.</p>
+						</div>
+						
+						<div>
+							<h2>WAI-ARIA</h2>
+							<p>WAI-ARIA or the Web Accessibility Initiative Accessible Rich Internet Applications purpose is to make web page contents or web applications accessible to the person with disabilities.</p>
+						</div>
+					</div>
+					<br><br>
+					
+					<div class="left-right">
+						<div>
+							<h2>Character References</h2>
+							<p>Character References in HTML are used to refer special characters which are not normally seen in the keyboard.</p>
+						</div>
+						
+						<div>
+							<h2>HTML Preproccessors</h2>
+							<p>Preporocessors are the process of transforming a data to another data. HTML preprocessors goal is to make it easier to encode html codes. Some examples of it are the Haml also known as HTML abstraction markup language.</p>
+						</div>
+					</div>
+					<br>
+					
+					<h2>Bit Map vs Vector Graphics</h2>
+					<p>Vector Graphics uses mathematical formulas in order to represent an image while Bit Mapped Graphic uses pixels in order to represent an image. The advantage of Vector Graphics is that even if you try to zoom in the image, the quality wont change compared to Bit Mapped Graphics, if you try to zoom in an image, it becomes pixalated. The disadvantage of Vector Graphics is that if you want to create a complex image, the formulas used is also more complex while in Bit Mapped Graphics, you dont need to solve any formulas since you only need to store the image inside the bits.</p>
+				</div>
+				
+				<div id="t5" class="tabcontent references">
+					<h1>References</h1>
+					<p>10 Status Code Definitions. (n.d). Retrieved from https://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html</p><br>
+                    <p>Charlie, A. (2018, March 30). HTML4 v XHTML v HTML5 - The Main Differences Retrieved from https://www.siliconbeachtraining.co.uk/blog/html4-v-html5-v-xhtml-differences</p><br>
+                    <p>Elements. (n.d.). Retrieved from https://www.w3.org/TR/2011/WD-html5-20110525/elements.html</p><br>
+                    <p>Global attributes. (n.d.). Retrieved from https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes </p><br>
+                    <p>HTML5. (n.d). Retrieved from https://www.w3.org/TR/2011/WD-html5-20110525/content-models.html</p><br>
+                    <p>Johansson, R. (2005, August 30). HTML tags vs. elements vs. attributes. Retrieved from http://www.456bereastreet.com/archive/200508/html_tags_vs_elements_vs_attributes/</p><br>
+                    <p>Li, I. (2013, December 23). The benefits of Scalable Vector Graphics (SVG). Retrieved from https://www.appnovation.com/blog/benefits-scalable-vector-graphics-svg</p><br>
+                    <p>Mathematical Markup Language (MathML). (n.d). Retrieved from https://www.w3.org/Math/whatIsMathML.html</p><br>
+                    <p>Preprocessors. (n.d.). https://learn.shayhowe.com/advanced-html-css/preprocessors/</p><br>
+                    <p>Rouse, M. (2005). URN (Uniform Resource Name). Retrieved February 26, 2018, from http://searchmicroservices.techtarget.com/definition/URN-Uniform-Resource-Name</p><br>
+                    <p>Vibro (2013, March 2). URL, URN, URI: Oh My! Retrieved February 26, 2018, from http://www.cloudidentity.com/blog/2013/03/02/url-urn-uri-oh-my/</p><br>
+                    <p>WAI-ARIA Overview. (2006, December). Retrieved from https://www.w3.org/WAI/intro/aria</p>
+				</div>
+				
+				<div id="helper"></div>
+        		<div id="footer">
+					Saint Louis University &copy; 2018
+        		</div>
+			</div>
+		</div>
+    </body>
+</html>

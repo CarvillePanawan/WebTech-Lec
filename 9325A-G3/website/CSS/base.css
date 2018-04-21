@@ -1,0 +1,106 @@
+#header {
+    position: absolute;
+    top: 0;
+    height: 10vh;
+    background-color: rgb(255, 255, 255, 0.8);
+    width: 100%;
+    box-shadow: 0 0.5em 0.8em 0 rgba(0, 0, 0, 0.5);
+	font-family: "Century gothic", sans-serif
+}
+
+#content {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#helper {
+    height: 0.1vh;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer {
+    position: absolute;
+    height: 10%;
+    background-color: rgb(34, 34, 34);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: bold;
+}
+
+#title {
+    height: 100%;
+    width: 24.05%;
+    float: left;
+    display: block;
+    position: inherit;
+    background-color: #fff;
+    top: 2em;
+    left: 3em;
+    background-image: url("../IMAGES/Header.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#header ul {
+    height: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#header li {
+    width: auto;
+    float: right;
+    font-weight: bold;
+}
+
+#header li a {
+    display: block;
+    color: #222;
+    text-align: center;
+    padding: 1.5em;
+    text-decoration: none;
+    -webkit-transition: background-color 150ms linear;
+    -moz-transition: background-color 150ms linear;
+    -o-transition: background-color 150ms linear;
+    -ms-transition: background-color 150ms linear;
+    transition: background-color 150ms linear;
+}
+
+#header li a:hover {
+    background-color: rgb(34, 34, 34);
+    cursor: pointer;
+    color: #fff;
+}
+
+#container {
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+    min-width: 100%;
+}
+
+#banner {
+    margin-top: -100vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../IMAGES/bg2.png);
+    background-repeat: no-repeat;
+    background-position: 50% 43%;
+}
+
+#space {
+    margin-top: -6vh;
+    height: 6vh;
+    background-color: rgba(255, 255, 255, 0.8);
+}

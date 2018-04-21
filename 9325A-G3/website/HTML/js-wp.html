@@ -1,0 +1,337 @@
+<!Doctypr HTML>
+
+<html>
+    <head>
+        <title>JS</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../CSS/base-cntl.css">
+        <link rel="stylesheet" type="text/css" href="../CSS/base.css">
+		<link rel="stylesheet" type="text/css" href="../CSS/m-content.css">
+		<link rel="stylesheet" type="text/css" href="../CSS/base-docu.css">
+        <script src="../JAVASCRIPT/html-wp.js" async></script>
+    </head>
+    
+    <body>
+        <div id="header">
+            <div id="title"></div>
+            
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a>About Us</a></li>
+            </ul>
+        </div>
+        
+        <div id="content">
+			<div id="p-banner"></div>
+			<div id="p-space"></div>
+			
+			<div id="container">
+				<div id="p-span"></div>
+				<div class="tab">
+					<button class="tablinks" onclick="openTab(event, 't1')">Introduction</button>
+					<button class="tablinks" onclick="openTab(event, 't2')">Functions</button>
+					<button class="tablinks" onclick="openTab(event, 't3')">Arrays</button>
+					<button class="tablinks" onclick="openTab(event, 't4')">Event Handling</button>
+					<button class="tablinks" onclick="openTab(event, 't5')">Javascript API</button>
+					<button class="tablinks" onclick="openTab(event, 't6')">XMLHTTPRequest</button>
+					<button class="tablinks" onclick="openTab(event, 't7')">Promise</button>
+					<button class="tablinks" onclick="openTab(event, 't8')">References</button>
+				</div>
+				
+				<div id="t1" class="tabcontent">
+					<h1>Javascript: Front-end</h1>
+					<p>JavaScript is a high-level, web-scripting programming language that is widely used for making the websites more interactive.</p>
+					
+					<h2>Variable Declaration</h2>
+					<p>In Javascript, variable declaration is done by writing <code>var</code> and then a variable name, then assigning to it a value. The value can be any datatype; it is also possible to not assigned a declared variable a value.</p>
+					<p class="no-indent">Example:</p>
+					&nbsp;
+					<div class="code-block">
+						<div class="i">var a = 0;</div>
+						<div class="i">var b;</div>
+						<div class="i">var c = "Hello World"</div>
+					</div>
+					&nbsp;
+					<h2>Data Types</h2>
+					<h3>Number</h3>
+					<p>The datatype number can be a decimal integer, decimal floating point or a decimal scientific notation. It can used to represent numbers in base 2, 8 or 16. There are also special numbers, namely infinity, negative infinity and NaN. Due to the nature of Javascript, division with numbers will always result as a decimal floating point and beware of inexact result.</p>
+					<p class="no-indent">Example:</p>
+					&nbsp;
+					<div class="code-block">
+						<div class="i">var num = 10;</div>
+						<div class="i">var number = 1.5;</div>
+						<div class="i">var numbers = 3.1e7;</div>
+					</div>
+					&nbsp;
+					
+					<h3>String</h3>
+					<p>The string datatype can be represented by a single quote ('') or a double qoute ("").</p>
+					<p class="no-indent">Example:</p>
+					&nbsp;
+					<div class="code-block">
+						<div class="i">var str = "Hello World";</div>
+					</div>
+					&nbsp;
+					
+					<h3>Boolean</h3>
+					<p>The boolean data type has two values. The first is the falsy values which is represented by false, null, 0, '', and undefined. The second is the truthy values which are the values other than the falsy values.</p>
+					<p class="no-indent">Example:</p>
+					&nbsp;
+					<div class="code-block">
+						<div class="i">var condition = true;</div>
+						<div class="i">var condition = 0;</div>
+						<div class="i">var condition = null;</div>
+					</div>
+					&nbsp;
+					
+					<h3>Null or Undefined</h3>
+					<p>These data types are the default when a variable is declared and is not assigned to any value(eg <code>var none;</code>, <code>var none = null;</code>).</p>
+					&nbsp;
+					<div class="code-block">
+						<div class="i">var none = null;</div>
+						<div class="i">var none;</div>
+					</div>
+					&nbsp;
+					
+					<h3>Object</h3>
+					<p>Object types corresponds to a combination primitive data types, such as number and boolean, used to represent data.</p>
+					&nbsp;
+					<div class="code-block">
+						<div class="i">var obj = {title: "Test", test: "Hello World", val: 13};</div>
+					</div>
+					&nbsp;
+				</div>
+				
+				<div id="t2" class="tabcontent">
+					<h1>Functions</h1>
+					<p>Functions in javascript lets you return any type of value you want. The parameters of a function can be any data type and it does not need to be consistent, where parameters in invokation is possible to not match the parameters in the function declaration.</p>
+					<p class="no-indent">Example Function declaration and Invocation:</p>
+					&nbsp;
+					<div class="code-block">
+						<div class="i">function fnc (a,b){</div>
+						<div class="j">if(a>b){</div>
+						<div class="k">return a;</div>
+						<div class="j">}else{</div>
+						<div class="k">return b;</div>
+						<div class="j">}</div>
+						<div class="i">}</div><br>
+						<div class="i">fnc("Hello", "World");</div>
+						<div class="i">fnc(3, true);</div>
+					</div>
+					&nbsp;
+					<p class="no-indent">There is an object called argument in javascript which is an array that treats the parameter of a function as a data inside the array</p>
+					&nbsp;
+					<div class="code-block">
+						<div class="i">function fnc1(a,b){</div>
+						<div class="j">console.log(argument[0]); //the output is the value of a </div>
+						<div class="j">console.log(argument[1]); //the output is the value of b</div>
+						<div class="i">}</div>
+					</div>
+					&nbsp;
+					<p class="no-indent">There is a parameter called rest parameter which is represented by three dots (...). The rest parameter lets you have an indefinite number of parameter or argument in a function</p>
+					&nbsp;
+					<div class="code-block">
+						<div class="j">function fnc2(a...z){ }</div>
+					</div>
+					&nbsp;
+					<p>A function can be represented as expressions and can be assigned via arrow notation.</p>
+					&nbsp;
+					<div class="code-block">
+						<div class="i">var func = function (a,b){return a/b;};</div>
+						<div class="i">var func1 = (a,b) => {var c = a/b; return c;};</div>
+					</div>
+				</div>
+				
+				<div id="t3" class="tabcontent">
+					<h1>Arrays</h1>
+					<p>Arrays in java script are dynamic in size and it allows sparse arrays.</p>
+					
+					<h2>Methods used in Arrays</h2>
+					<p>push: adds a net item at the end of the array.</p>
+					&nbsp;
+					<div class="code-block">
+						<div class="i">var colors = ["red", "blue", "green"];</div>
+						<div class="i">colors.push("yellow");</div>
+						&nbsp;
+						<div class="i">&lt;- colors = ["red", "blue", "green", "yellow"]</div>
+					</div>
+					&nbsp;
+					<p>pop: removes the item at the end of the array.</p>
+					&nbsp;
+					<div class="code-block">
+						<div class="i">var colors = ["red", "blue", "green"];</div>
+						<div class="i">colors.pop();</div>
+						&nbsp;
+						<div class="i">&lt;- colors = ["red", "blue"]</div>
+					</div>
+					&nbsp;
+					<p>unshift: adds an item at the beginning of the array.</p>
+					&nbsp;
+					<div class="code-block">
+						<div class="i">var colors = ["red", "blue", "green"];</div>
+						<div class="i">colors.unshift("yellow");</div>
+						&nbsp;
+						<div class="i">&lt;- colors = ["yellow", "red", "blue", "green"]</div>
+					</div>
+					&nbsp;
+					<p>shift: removes the item at the beginning of the array.</p>
+					&nbsp;
+					<div class="code-block">
+						<div class="i">var colors = ["red", "blue", "green"];</div>
+						<div class="i">colors.shift();</div>
+						&nbsp;
+						<div class="i">&lt;- colors = ["blue", "green"]</div>
+					</div>
+					&nbsp;
+					<p>sort: sorts the elemets of the array in lexicographic order.</p>
+					&nbsp;
+					<div class="code-block">
+						<div class="i">var colors = ["red", "blue", "green"];</div>
+						<div class="i">colors.sort();</div>
+						&nbsp;
+						<div class="i">&lt;- colors = ["blue", "green", "red"]</div>
+					</div>
+					&nbsp;
+					<p>reverse: reverses the elemts of the array.</p>
+					&nbsp;
+					<div class="code-block">
+						<div class="i">var colors = ["red", "blue", "green"];</div>
+						<div class="i">colors.push("yellow");</div>
+						&nbsp;
+						<div class="i">&lt;- colors = ["green", "blue", "red"]</div>
+					</div>
+					&nbsp;
+					<p class="no-indent">Other and more complex methods:</p>&nbsp;
+					<p>forEach: calls the elements of the array one at a time.</p>&nbsp;
+					<p>reduce: reduces the the value of the array to single value.</p>&nbsp;
+					<p>filter: filters the elements of the array that passes the condition</p>&nbsp;
+					<p>map: maps a function once for each elements of the array.</p>
+				</div>
+				
+				<div id="t4" class="tabcontent">
+					<h1>Event Handling</h1>
+					<h2>Event Propagation</h2>
+					<p>Event propagation determines in which order the elements receive the event. There are two ways of event propagation namely Capture phase and Bubbling phase.</p>
+					&nbsp;
+					<h3>Capture Phase</h3>
+					<p class="no-indent">with capturing, the first event to be captured and handled is the outermost elememt going to the innermost element.</p>
+					&nbsp;
+					<div class="code-block">
+						<div class="i">&lt;div&gt;</div>
+						<div class="j">&lt;ul&gt;</div>
+						<div class="k">&lt;li&gt;&lt;li&gt;</div>
+						<div class="j">&lt;ul&gt;</div>
+						<div class="i">&lt;div&gt;</div>
+					</div>
+					&nbsp;
+					<p class="no-indent">In this example, assume that a click event happened on <cs>&lt;li&gt;</cs>, the order of propagation would then be from <cs>&lt;div&gt;</cs> to <cs>&lt;li&gt;</cs></p>
+					&nbsp;
+					<h3>Bubbling Phase</h3>
+					<p class="no-indent">with bubbling, the first event to be captured and handled is the innermost elememt going to the outermost element..</p>
+					&nbsp;
+					<div class="code-block">
+						<div class="i">&lt;div&gt;</div>
+						<div class="j">&lt;ul&gt;</div>
+						<div class="k">&lt;li&gt;&lt;li&gt;</div>
+						<div class="j">&lt;ul&gt;</div>
+						<div class="i">&lt;div&gt;</div>
+					</div>
+					&nbsp;
+					<p class="no-indent">In this example, assume that a click event happened on <cs>&lt;li&gt;</cs>, the order of propagation would then be from <cs>&lt;li&gt;</cs> to <cs>&lt;ul&gt;</cs> to <cs>&lt;div&gt;</cs></p>
+					&nbsp;
+					<h2>Event Handler Registration</h2>
+					<ul>
+						<li>using an inline event attributes</li>
+						<li>using <cs>addEventListener</cs>, <cs>removeEventListener</cs>, <cs>dispatchEvent</cs></li>
+						<li>using <cs>attachEvent</cs>, <cs>fireEvent</cs></li>
+					</ul>
+					<h2>Event Objects Properties and Methods</h2>
+				</div>
+				
+				<div id="t5" class="tabcontent">
+					<h1>Javascript API</h1>
+					<h2>Execution of Synchronous and Asynchronous Codes</h2>
+					<p>JavaScript is a single-threaded programming language which means that it can only execute one statement at a time.</p>
+					&nbsp;
+					<h3>Synchronous</h3>
+					<p>this means that while a statement is being executed, following line of statements can't be executed.</p>
+					&nbsp;
+					<div class="code-block">
+						<div class="i">cosole.log("First");</div>
+						<div class="i">cosole.log("Second");</div>
+						<div class="i">cosole.log("Third");</div>
+					</div>
+					&nbsp;
+					<p>In this example, when the statement console.log(" First "); is executed, following statements are blocked and can not be executed.</p>
+					&nbsp;<p>The output should then be:</p>
+					&nbsp;
+					<div class="code-block">
+						<div class="i">First</div>
+						<div class="i">Second</div>
+						<div class="i">Third</div>
+					</div>
+					&nbsp;
+					<h3>Assynchronous</h3>
+					<p>This means that while a statement is being executed, the next line of codes can be executed even though current statement are executing. It may seem that a synchronous execution is straightforward but it can really be slow. With asynchronous execution, things can get faster especially with image processing, file operation and others.</p>
+					&nbsp;
+					<div class="code-block">
+						<div class="i">console.log(1);</div>
+						<div class="i">setTimeout( function() {</div>
+						<div class="j">consoleLog.(3);</div>
+						<div class="i">});</div>
+						<div class="i">cosole.log(2);</div>
+					</div>
+					&nbsp;
+					<p>In this exmaple, we used setTimeout(), let us say that the parameters for the function is setTimeout(callback, 2000).It has the component callback and 2000 ms, callback will let the user know if the execution is done within the time of 2 seconds. The first statement is executed then the second one which is the function setTimeout(). While it is executing, lines after it can be executed. After 2 seconds, callback is now triggered and the statement is now executed.</p>
+					&nbsp;<p>The output should then be:</p>
+					&nbsp;
+					<div class="code-block">
+						<div class="i">1</div>
+						<div class="i">2</div>
+						<div class="i">3</div>
+					</div>
+					&nbsp;
+				</div>
+				
+				<div id="t6" class="tabcontent">
+					<h1>XMLHTTPRequest</h1>
+					<ul>
+						<li>with this object, updating the parts of the webpage with reloading the whole page is possible.</li>
+						<li>XMLHttpRequest Object is used to give and take data with a server in background.</li>
+					</ul>
+					
+					<h2>Properties of the Object</h2>
+					<ul>
+						<li>status</li>
+						<li>statusText</li>
+						<li>responseText</li>
+						<li>responseXML</li>
+						<li>readyState</li>
+						<li>onReadyStateChange</li>
+					</ul>
+				</div>
+				
+				<div id="t7" class="tabcontent">
+					<h1>Promise</h1>
+					<p>Promise Objects may produce a single value some time in the future that can be either a resolve value or a rejected value. A promise can have 3 states mainly: fulfilled, pending, or rejected. Promises are eager, that means that a promise will start doing task you give it as soon as the promise constructor is invoked.</p>
+					&nbsp;
+					<p class="no-indent">3 States:</p>
+					<ul>
+						<li>If the state is fulfilled, onFulfilled() will be called (e.g. resolve())</li>
+						<li>If the state is rejected, onRejected() will be called (e.g. reject())</li>
+						<li>If the state is pending, it is notyet fulfilled or rejected</li>
+					</ul>
+				</div>
+				
+				<div id="t8" class="tabcontent references">
+					<h1>References</h1>
+				</div>
+				
+				<div id="helper"></div>
+        		<div id="footer">
+					Saint Louis University &copy; 2018
+        		</div>
+			</div>
+		</div>
+    </body>
+</html>
